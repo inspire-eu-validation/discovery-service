@@ -1,4 +1,4 @@
-# A.1.3 ISO 19115/19119 information model
+# A.4.2 Third Party Discovery Services published to MS Discovery Service
 
 **Purpose**: One or two sentences inlined here: Why this test is necessary?
 

@@ -1,4 +1,4 @@
-# A.1.3 ISO 19115/19119 information model
+# A.2.8 Natural languages
 
 **Purpose**: One or two sentences inlined here: Why this test is necessary?
 

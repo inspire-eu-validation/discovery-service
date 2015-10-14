@@ -1,4 +1,4 @@
-# A.1.3 ISO 19115/19119 information model
+# A.1.5 ISO 639 codes
 
 **Purpose**: One or two sentences inlined here: Why this test is necessary?
 

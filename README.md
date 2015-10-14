@@ -36,8 +36,8 @@ Based on requirement numbering in [TG DISC](#ref_TG_DISC).
 | 11     | Discover Metadata request: Query | [A.3.4 Query](A.03.04.query.md) | |
 | 12     | At least the INSPIRE MD elements in Discover Metadata response | [A.3.5 INSPIRE metadata elements](A.03.05.inspire.md.elements.md) | |
 | 13     | Publish Metadata: resource type and format | [A.4.1 Harvesting readiness](A.04.01.harvesting.readiness.md) | |
-| 14     | Link Discovery Service | [A.5.1 Third Party Discovery Services are harvestable by MS Discovery Service](A.05.01.third.party.discovery.services.harvestable.md) | |
-| 15     | Third Party Discovery Services published in MS Discovery Service | [A.4.2 Third Party Discovery Services are published to MS Discovery Service](A.04.02.third.party.discovery.services.published.md) | |
+| 14     | Link Discovery Service | [A.5.1 Third Party Discovery Services harvestable by MS Discovery Service](A.05.01.third.party.discovery.services.harvestable.md) | |
+| 15     | Third Party Discovery Services published in MS Discovery Service | [A.4.2 Third Party Discovery Services published to MS Discovery Service](A.04.02.third.party.discovery.services.published.md) | |
 | 16     | FederatedCatalogues declared | [A.2.7 Federated Discovery Service](A.02.07.federated.discovery.service.md) | |
 | 17     | DistributedSearch fixed hop count = 2 | [A.3.6 Distributed search parameter](A.03.06.distributed.search.parameter.md) | |
 | 18     | INSPIRE MD records requested through Discovery Service | [A.1.3 ISO 19115/19119 information model](A.01.03.iso_19115_19119.model.md) | |
@@ -92,8 +92,8 @@ The ATS for the INSPIRE profile of CSW ISO AP contains the following tests:
 | [A.3.11 Language filter](A.03.11.language.filter.md) | missing  |
 | [A.3.12 Invalid request](A.03.12.invalid.request.md) | missing  |
 | [A.4.1 Harvesting readiness](A.04.01.harvesting.readiness.md) | missing  |
-| [A.4.2 Third Party Discovery Services are published to MS Discovery Service](A.04.02.third.party.discovery.services.published.md) | missing  |
-| [A.5.1 Third Party Discovery Services are harvestable by MS Discovery Service](A.05.01.third.party.discovery.services.harvestable.md) | missing  |
+| [A.4.2 Third Party Discovery Services published to MS Discovery Service](A.04.02.third.party.discovery.services.published.md) | missing  |
+| [A.5.1 Third Party Discovery Services harvestable by MS Discovery Service](A.05.01.third.party.discovery.services.harvestable.md) | missing  |
 | [A.6.1 Performance](A.06.01.QoS.performance.md) | missing  |
 | [A.6.2 Capacity](A.06.02.QoS.capacity.md) | missing  |
 | [A.6.3 Availability](A.06.03.QoS.availability.md) | missing  |
