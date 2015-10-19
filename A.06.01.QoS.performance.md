@@ -1,27 +1,22 @@
 # A.6.1 Performance
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the response time for sending the initial response to a Discovery service request is maximum 3 seconds in normal situation.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the response time for sending the initial response to a Discovery service request is maximum 3 seconds in normal situation. Normal situation represents periods out of peak load. It is set at 90% of the time.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [IR NS](README.md#ref_IR_NS), section 5; Annex I
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
+Technical Guidance recommends that performance shall be measured using the Discovery Metadata operation (with filter PropertyName=AnyText, Literal=dataset, and with varying BBOX requests), however it shall be applicable to all operations according to the Commission Regulation No 976/2009. Such simplification of the test originates from the fact that the Discovery Metadata operation is the most complex one, i.e. its processing is the most demanding from the computational point of view.
 
 
 ## Contextual XPath references

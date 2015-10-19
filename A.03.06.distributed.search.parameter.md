@@ -1,21 +1,16 @@
 # A.3.6 Distributed search parameter
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the “DistributedSearch” parameter, where applicable, of a Discover Metadata (i.e. GetRecords) operation is used with the “hopCount” attribute set always equal to “2”. The test is intended to verify avoiding circular searches.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the “DistributedSearch” parameter, where applicable, of a Discover Records (i.e. GetRecords) operation is used with the “hopCount” attribute set always equal to “2”.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 17
 
 **Test type**: Automated or Manual
 

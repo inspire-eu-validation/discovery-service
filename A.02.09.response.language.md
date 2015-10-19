@@ -1,27 +1,23 @@
 # A.2.9 Response language
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the Get Discovery Service Metadata response (i.e. the GetCapabilities document) contains an appropriate response language.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether:
+1. the language requested by a client is contained in the list of supported languages: in such cases the requested language shall correspond to the language used in the Get Discovery Service Metadata response (i.e. the GetCapabilities document) as defined in ```inspire-common:ResponseLanguage``` / ```/inspire_common:Language```;
+2. the language requested by a client is NOT contained in the list of supported languages: in such cases the Get Discovery Service Metadata response (i.e. the GetCapabilities document) is provided in the service default language as defined in ```inspire-common:ResponseLanguage``` / ```/inspire_common:Language```.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 27
+* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 2.2.3
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
 
 
 ## Contextual XPath references

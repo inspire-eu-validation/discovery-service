@@ -1,28 +1,22 @@
 # A.2.6 Federated catalogues advertisement
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether all federated catalogues have been advertised as a result of a Service metadata response to a Discover Metadata request.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+ Examine whether all federated catalogues have been advertised as a result of a Service metadata response (i.e. a capabilities document) to a Discover Metadata request; i.e. whether the ```OperationsMetadata``` contains ```Constraints``` element with name=”FederatedCatalogues” attribute and included links to all federated catalogues.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 3
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
-
+The XML excerpt of a capabilities document may be found in section 4.3.4.3
 
 ## Contextual XPath references
 

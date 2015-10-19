@@ -1,28 +1,21 @@
 # A.5.1 Third Party Discovery Services harvestable by MS Discovery Service
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether all information about the Public Authority’s or Third Party’s Discovery Service are provided, enabling the Member State Discovery Service to get resources metadata based on a combination of search criteria from the Public Authority’s or Third Party’s Discovery Service and to collate it with other resources metadata.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether all information about the Public Authority’s or Third Party’s Discovery Service are provided, enabling the Member State Discovery Service to get resources metadata based on a combination of search criteria from the Public Authority’s or Third Party’s Discovery Service and to collate it with other resources metadata.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 14
+* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 5
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 

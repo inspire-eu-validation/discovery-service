@@ -1,28 +1,21 @@
 # A.1.6 Unsupported languages
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**:Verification whether the response of the INSPIRE Discovery Service provides its response in the default language in the cases where a client requested an unsupported language, or the language parameter is absent in the request.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the response of the INSPIRE Discovery Service provides its response in the default language in the cases where a client requested an unsupported language, or the language parameter is absent in the request.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 26
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 

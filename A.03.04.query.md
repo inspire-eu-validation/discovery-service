@@ -1,27 +1,23 @@
 # A.3.4 Query
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the query parameter is implemented by the filter statement of the Discover Metadata request itself.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the query parameter is implemented by the filter statement of the Discover Metadata request itself. Examine whether the query may support all the following search attributes: Keyword, Topic category, Spatial data service type, Lineage, Spatial resolution, Specification, Degree, Geographic bounding box, Conditions applying to access and use, Limitations on public access, Responsible party, Responsible party role, Resource Title, Resource Abstract, Resource Type, Unique resource identifier, Temporal Reference, Degree, Specification (composed of SpecificationTitle, SpecificationDate, SpecificationDateType), LimitationsOnPublicAccess (composed of AccessConstraints, OtherConstraints, Classification), Conditions applying to access and use, Lineage, ResponsiblePartyRole, intersects.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 11
+* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 3.1
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
+The list in the Technical Guidance does not correspond to the list in Commission Regulation No 976/2009. The legally binding document also defines intersects as a spatial operator, however such information is not advertised in the Technical Guidance document. See Implementation Recommendation 2 about a common structure of the request parameters and appropriate responses.
 
 
 ## Contextual XPath references

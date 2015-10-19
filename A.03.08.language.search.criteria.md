@@ -1,6 +1,6 @@
 # A.3.8 Language search criteria
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the INSPIRE Discovery Service supports the search criteria (queryable) “language”.
 
 **Prerequisites**
 
@@ -8,21 +8,17 @@ Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the INSPIRE Discovery Service supports the search criteria (queryable) “language” that complies to the metadata element “Metadata language” according to the Commission Regulation 1205/2008.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 20
+* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 3.1
+* [ID MD](README.md#ref_IR_MD), Annex, Part B, section 10.3
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 

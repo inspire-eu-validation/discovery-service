@@ -1,27 +1,26 @@
 # A.1.5 ISO 639 codes
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the parameter “language” contain values that are based on ISO 639-2/B alpha 3 codes.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the values in the list of supported languages of the INSPIRE Discovery Service are based on ISO 639-2/B alpha 3 codes. In other words, whether the INSPIRE Discovery Service supports at least one of those language codes: eng, bul, cze, dan, est, fin, fre, hrv, dut, gle, ice, ita, lit, lav, hun, mlt, nor, ger, pol, por, rum, roh, gre, slo, slv, spa, swe.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 25
+
+See note 1
 
 **Test type**: Automated or Manual
 
 **Notes**
+This test may be applied at least for the Get Discovery Service Metadata and Discover Metadata operations since “language” parameter is defined in the Commission Regulation No 976/2009 only for those two operations. The list of codes in the Technical Guidelines for INSPIRE metadata and Technical Guidance for INSPIRE Discovery Services does not comply with each. The Technical Guidance for INSPIRE Discovery Services also provides codes for the EFTA countries while Technical Guidelines for INSPIRE metadata provides codes only for the EU Member States.
 
-Any additional notes. We can also use this for open questions during drafting.
+Note 1: The ISO 639-2 values are required by the Commission Regulation No 1205/2008, which is not directly related to the “language” parameter in the INSPIRE Discovery Service.
 
 
 ## Contextual XPath references

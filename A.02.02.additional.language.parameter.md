@@ -1,27 +1,24 @@
 # A.2.2 Additional language parameter
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the INSPIRE Discovery Service supports an additional parameter that indicates the client’s preferred language.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the INSPIRE Discovery Service supports an additional parameter that indicates the client’s preferred language.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 6
+* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 2.1.1
 
-**Test type**: Automated or Manual
+**Test type**: Automated or Manual?
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
+The test is an abstraction of the following tests: A.1.5 ISO 639 codes test, A.1.6 Unsupported languages test, A.2.9 Response language test, A.2.10 Supported languages test and A.2.11 XML schema test.
 
 
 ## Contextual XPath references

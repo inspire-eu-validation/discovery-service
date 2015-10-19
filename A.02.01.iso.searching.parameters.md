@@ -1,28 +1,25 @@
 # A.2.1 ISO searching parameters
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the Get Discovery Service Metadata operation supports the advertisement of all supported ISO queryables and all INSPIRE search criteria in the section “AdditionalQueryables”.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the Get Discovery Service Metadata operation supports the advertisement of all supported ISO queryables and all INSPIRE search criteria in the section “AdditionalQueryables”. More specifically:
+1. the SupportedISOQueryables are following: Operation, Format, OrganisationName, Type, ServiceType, DistanceValue, ResourceLanguage, RevisionDate, OperatesOn, GeographicDescriptionCode, AnyText, Modified, PublicationDate, ResourceIdentifier, ParentIdentifier, Identifier, CouplingType, TopicCategory, OperatesOnIdentifier, ServiceTypeVersion, TempExtent_end, Subject, CreationDate, OperatesOnName, Title, DistanceUOM, Denominator, TempExtent_begin, AlternateTitle, Language, HasSecurityConstraints, KeywordType, Abstract;
+2. the AdditionalQueryables are following: Relation, AccessConstraints, ResponsiblePartyRole, Lineage, SpecificationDate, ConditionApplyingToAccessAndUse, SpecificationDateType, MetadataPointOfContact, Classification, Date, OtherConstraints, Degree, SpecificationTitle.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 22
+* [IR NS](README.md#ref_IR_NS), Annex II, Part A
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
-
+The test ensures that the searching parameters defined in the A.3.1 INSPIRE search attributes test are properly advertised in the Get Discovery Service Metadata response. The list of SupportedISOQueryables and AdditionalQueryables may be extended by the service provider which still means passing this test.
 
 ## Contextual XPath references
 

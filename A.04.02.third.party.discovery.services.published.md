@@ -1,27 +1,22 @@
 # A.4.2 Third Party Discovery Services published to MS Discovery Service
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the Third Party Discovery Services are published in the Member State’s Discovery Service using the Publish Metadata operation.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the Third Party Discovery Services are published in the Member State’s Discovery Service using the Publish Metadata operation. See Implementation Recommendation 4 for the implementation of the Link Discovery Service Operation by enabling federated search at the Discovery Service.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+ * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 15
+ * [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 4.2.2.1
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
 
 
 ## Contextual XPath references

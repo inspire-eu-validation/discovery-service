@@ -1,28 +1,20 @@
 # A.3.2 Language and query parameters
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the Language and Query parameters are supported by the INSPIRE Discovery Service.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the INSPIRE Discovery service supports the parameters Language and Query during the Discover Metadata operation.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 3.1
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 

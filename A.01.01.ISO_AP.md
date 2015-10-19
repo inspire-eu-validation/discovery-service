@@ -1,27 +1,22 @@
 # A.1.1 ISO Metadata Application Profile
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the INSPIRE Discovery Service implements the mandatory behaviour of an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the INSPIRE Discovery Service implements the mandatory behaviour of an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2 (support of all mandatory operations and their parameters, correct encoding of the requests and responses etc.).
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 18
 
-**Test type**: Automated or Manual
+**Test type**: Automated or Manual?
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
+The Abstract Test Suite neither the test suite for an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2 is not, so far, provided since it is a subject of further implementation specification development.
 
 
 ## Contextual XPath references

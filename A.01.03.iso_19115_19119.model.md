@@ -1,28 +1,21 @@
 # A Unique identification for this test
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the INSPIRE metadata elements may be requested through the INSPIRE Discovery Service.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+ Examine whether the INSPIRE metadata elements may be requested by the INSPIRE Discovery Service. It means that the sub-domain of ISO 19139 XML encoding equivalent to INSPIRE Metadata as defined by Commission Regulation No 1205/2008 is provided according to the ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 18
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 

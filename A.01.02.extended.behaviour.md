@@ -1,27 +1,24 @@
 # A.1.2 Extended behaviour
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**:Verification whether the INSPIRE Discovery Service supports the extended requirements of the INSPIRE Directive and Commission Regulation No 976/2009.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the INSPIRE Discovery Service supports the extended requirements of the INSPIRE Directive and Commission Regulation No 976/2009 on the top of an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 2
+* [INSPIRE](README.md#ref_INSPIRE)
+* [IR NS](README.md#ref_IR_NS)
 
-**Test type**: Automated or Manual
+**Test type**: Automated or Manual?
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
+The test is an abstraction of all the tests in this Abstract Test Suite.
 
 
 ## Contextual XPath references

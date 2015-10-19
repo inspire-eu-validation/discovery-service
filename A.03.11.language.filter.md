@@ -1,28 +1,21 @@
 # A.3.11 Language filter
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the response to a Discover Metadata request comply with a language defined in the request.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the response to a Discover Metadata request comply with a language defined in the request. In other words, the Discover Metadata response offers only the metadata records having the language identical to the language specific filter as defined by the Discover Metadata request. If no metadata records comply with the request, the service shall respond normally with an empty result set (without raising an exception).
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 31
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 

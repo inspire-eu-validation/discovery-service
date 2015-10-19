@@ -1,27 +1,20 @@
 # A.3.10 Missing language filter
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the response to a Discover Metadata request without a language specific filter contains metadata records independent from any language.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the response to a Discover Metadata request without a language specific filter contains metadata records independent from any language. In other words, the response (i.e. the GetRecords response XML) contains metadata records of several natural languages, as provided by the INSPIRE Discovery Service.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 30
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
 
 
 ## Contextual XPath references

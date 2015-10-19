@@ -1,28 +1,21 @@
 # A.2.8 Natural languages
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the INSPIRE Discovery Service contains a list of the natural languages supported by the service.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the INSPIRE Discovery Service contains a list of the natural languages supported by the service. The Get Discovery Service Metadata response (i.e. the GetCapabilities document) shall contain this list in the tags ```SupportedLanguages```.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 23
+* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 2.2
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 

@@ -1,28 +1,24 @@
 # A.3.7 INSPIRE search criteria
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether the INSPIRE Discovery Service supports the search criteria (queryables) as indicated in Table 4.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether the INSPIRE Discovery Service supports all the following search criteria (queryables): Keyword, Topic category, Spatial data service type, Lineage, Spatial resolution, Specification, Degree, Geographic bounding box, Conditions applying to access and use, Limitations on public access, Responsible party, Responsible party role, Resource Title, Resource Abstract, Resource Type, Unique resource identifier, Temporal Reference.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 19
+* [IR NS](README.md#ref_IR_NS), Annex II, Part A
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
 
-Any additional notes. We can also use this for open questions during drafting.
-
+There are duplicities between Table 4 and Table 5.
 
 ## Contextual XPath references
 

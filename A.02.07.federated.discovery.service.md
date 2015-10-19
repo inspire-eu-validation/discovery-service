@@ -1,27 +1,20 @@
 # A.2.7 Federated Discovery Service
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: Verification whether a federated Discovery Service is published in the Get Discovery Service Metadata response of the tested INSPIRE Discovery Service as the URL.
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
-
-* Step 1,
-* Step 2,
+Examine whether a federated Discovery Service is published in the Get Discovery Service Metadata response document of the tested INSPIRE Discovery Service. A federated Discovery service shall be advertised in the Get Discovery Service Metadata response (i.e. a GetCapabilities document) as the URL of its HTTP/KVP/GET GetCapabilities document.
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 16
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
 
 
 ## Contextual XPath references
