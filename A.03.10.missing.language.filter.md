@@ -6,7 +6,7 @@
 
 **Test method**
 
-Examine whether the response to a Discover Metadata request without a language specific filter contains metadata records independent from any language. In other words, the response (i.e. the GetRecords response XML) contains metadata records of several natural languages, as provided by the INSPIRE Discovery Service.
+Examine whether the response to a Discover Metadata request without a language specific filter contains metadata records independent from any language. The response (i.e. the GetRecords response XML) may contain metadata records of several natural languages, if the  INSPIRE Discovery Service under test contains records in different languages.
 
 **Reference(s)**
 
