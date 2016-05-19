@@ -4,8 +4,6 @@
 
 **Prerequisites**
 
-Which other tests must be passed before starting this test?
-
 **Test method**
 
 Examine whether the INSPIRE Discovery Service supports the search criteria (queryable) “language” that complies to the metadata element “Metadata language” according to the Commission Regulation 1205/2008.
