@@ -1,6 +1,6 @@
 # A.2.4 Discovery Service metadata parameters
 
-**Purpose**: Verification whether the discovery service metadata parameters are supported properly.
+**Purpose**: Verification whether the discovery service metadata parameters are included in the GetCapabilities response.
 
 **Prerequisites**
 
