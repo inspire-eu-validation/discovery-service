@@ -8,8 +8,10 @@
 
 Examine whether the Get Discovery Service Metadata response of the Discovery service contains:
 1. the tag ```MetadataURL``` which points to an INSPIRE compliant ISO metadata document;
-OR
+AND/OR
 2. the tag ```ExtendedCapabilities``` containing INSPIRE compliant metadata.
+
+If the ```ExtendedCapabilities``` tag is present, the test case should return that 'scenario 2' is being used. If only a ```MetadataURL``` URL is provided, the test case should return 'scenario 1'.
 
 **Reference(s)**
 
