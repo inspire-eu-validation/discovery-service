@@ -1,4 +1,4 @@
-# A Unique identification for this test
+#A.01.03 ISO 19115/19119 Model
 
 **Purpose**: Verification whether the INSPIRE metadata elements may be requested through the INSPIRE Discovery Service.
 
