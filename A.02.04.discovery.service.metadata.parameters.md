@@ -28,3 +28,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+<a name="#MetadataURL"></a> MetadataURL |  /xs:complexType/xs:choice/xs:sequence/xs:element[@name="MetadataUrl"]
