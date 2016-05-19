@@ -18,8 +18,6 @@ Examine whether the Get Discovery Service Metadata response provides a document 
 
 **Notes**
 
-IlkkaR: This was marked as "The test may not be performed automatically" in the originating ATS proposal document. However I cannot see a reason for it.
-
 ## Contextual XPath references
 
 The namespace prefixes used as described in [README.md](README.md#namespaces).
