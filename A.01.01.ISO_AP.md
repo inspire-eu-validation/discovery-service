@@ -11,12 +11,14 @@ Examine whether the INSPIRE Discovery Service implements the mandatory behaviour
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 18
+* [CSW_ISO_AP](README.md#user-content-ref_CSW_ISO_AP)
 
 **Test type**: Automated or Manual?
 
 **Notes**
 
-The Abstract Test Suite neither the test suite for an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2 is not, so far, provided since it is a subject of further implementation specification development.
+This test cases covers conformance to a third-party specification. Therefore, no INSPIRE specific ETS will be developed. Instead, an existing ETS will be chosen or reliance will be put on self declaration.
+The Abstract Test Suite for an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2 is provided in Annex A of [CSW_ISO_AP](README.md#user-content-ref_CSW_ISO_AP).
 
 
 ## Contextual XPath references
