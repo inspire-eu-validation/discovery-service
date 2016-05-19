@@ -1,16 +1,19 @@
 # A.1.5 ISO 639 codes
 
-**Purpose**: Verification whether the parameter “language” contain values that are based on ISO 639-2/B alpha 3 codes.
+**Purpose**: Verification whether the INSPIRE Discovery Service contains a list of the natural languages supported by the service and whether the Discover Metadata request parameter “language” contains values that are based on ISO 639-2/B alpha 3 codes.
 
 **Prerequisites**
 
 
 **Test method**
 
-Examine whether the values in the list of supported languages of the INSPIRE Discovery Service are based on ISO 639-2/B alpha 3 codes. In other words, whether the INSPIRE Discovery Service supports at least one of those language codes: eng, bul, cze, dan, est, fin, fre, hrv, dut, gle, ice, ita, lit, lav, hun, mlt, nor, ger, pol, por, rum, roh, gre, slo, slv, spa, swe.
+Examine whether the INSPIRE Discovery Service contains a list of the natural languages supported by the service. The Get Discovery Service Metadata response (i.e. the GetCapabilities document) shall contain this list in the tags [SupportedLanguages](#SupportedLanguages).
+
+Then, examine whether the values in the list of [SupportedLanguages](#SupportedLanguages) of the INSPIRE Discovery Service are based on ISO 639-2/B alpha 3 codes. In other words, whether the INSPIRE Discovery Service supports at least one of those language codes: eng, bul, cze, dan, est, fin, fre, hrv, dut, gle, ice, ita, lit, lav, hun, mlt, nor, ger, pol, por, rum, roh, gre, slo, slv, spa, swe.
 
 **Reference(s)**
 
+* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 23
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 25
 
 See note 1
@@ -29,3 +32,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+<a name="SupportedLanguages"></a> SupportedLanguages  | ./inspire_common:SupportedLanguages
