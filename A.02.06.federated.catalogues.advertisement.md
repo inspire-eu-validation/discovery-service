@@ -6,13 +6,13 @@
 
 **Test method**
 
- Examine whether all federated catalogues have been advertised as a result of a Service metadata response (i.e. a capabilities document) to a Discover Metadata request; i.e. whether the ```OperationsMetadata``` contains ```Constraints``` element with name=”FederatedCatalogues” attribute and included links to all federated catalogues.
+ Examine whether all federated catalogues have been advertised as a result of a Service metadata response (i.e. a capabilities document) to a Discover Metadata request; i.e. whether the ```OperationsMetadata``` contains ```Constraints``` element with name=”[FederatedCatalogues](FederatedCatalogues)” attribute and included links to all federated catalogues.
 
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 3
 
-**Test type**: Automated
+**Test type**: Manual
 
 **Notes**
 
@@ -24,3 +24,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+<a name="FederatedCatalogues"></a>FederatedCatalogues | /ows:OperationsMetadata/ows:Constraint[@name='FederatedCatalogues']
