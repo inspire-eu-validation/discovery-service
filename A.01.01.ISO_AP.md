@@ -13,7 +13,7 @@ Examine whether the INSPIRE Discovery Service implements the mandatory behaviour
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 18
 * [CSW_ISO_AP](README.md#user-content-ref_CSW_ISO_AP)
 
-**Test type**: Automated or Manual?
+**Test type**: Manual
 
 **Notes**
 
