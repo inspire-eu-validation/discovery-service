@@ -6,7 +6,7 @@
 
 **Test method**
 
-Examine whether the INSPIRE Discovery service implements the “language” parameter by using the Language queryable in a filter statement as defined by an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2.
+Examine whether the INSPIRE Discovery service implements the “language” parameter by using the Language queryable in a filter statement as defined by an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2. I.e. the Discover Metadata request contains a filter with a [PropertyName](#PropertyName) element "apiso:Language".
 
 **Reference(s)**
 
@@ -23,3 +23,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+<a name="PropertyName"></a>PropertyName | ./csw:GetRecords/csw:Query/csw:ElementSetName/csw:Constraint/ogc:Filter/.../ogc:PropertyName
