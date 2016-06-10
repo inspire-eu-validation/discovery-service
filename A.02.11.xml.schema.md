@@ -6,7 +6,7 @@
 
 **Test method**
 
-Examine whether the Extended Capabilities of the Get Discovery Service Metadata response use the XML Schema as defined in Annex A.
+Examine whether the Extended Capabilities of the Get Discovery Service Metadata response use the [XML Schema as defined in Annex A](http://inspire.ec.europa.eu/schemas/common/1.0/).
 
 **Reference(s)**
 
