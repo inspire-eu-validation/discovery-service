@@ -16,9 +16,7 @@ Examine whether the INSPIRE Discovery Service supports the following search crit
 **Test type**: Automated
 
 **Notes**
-
-There are duplicities between Table 4 and Table 5.
-
+This test case concerns the queryables listed in table 5 of the TG.
 
 ## Contextual XPath references
 
