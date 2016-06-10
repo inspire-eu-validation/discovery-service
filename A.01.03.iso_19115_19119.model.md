@@ -1,13 +1,13 @@
 #A.01.03 ISO 19115/19119 Model
 
-**Purpose**: Verification whether the INSPIRE metadata elements may be requested through the INSPIRE Discovery Service.
+**Purpose**: The INSPIRE metadata elements shall be returned in response to a Discover Metadata query in the form of an ISO 19139/19119 metadata record.
 
 **Prerequisites**
 
 
 **Test method**
 
- Examine whether the INSPIRE metadata elements may be requested by the INSPIRE Discovery Service. It means that the sub-domain of ISO 19139 XML encoding equivalent to INSPIRE Metadata as defined by Commission Regulation No 1205/2008 is provided according to the ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2.
+Validate the response against [ATS-Metadata](https://github.com/inspire-eu-validation/ats-metadata).
 
 **Reference(s)**
 
