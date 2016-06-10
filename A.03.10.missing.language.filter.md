@@ -4,9 +4,11 @@
 
 **Prerequisites**
 
+* [Supported languages](https://github.com/inspire-eu-validation/ats-discovery-service/blob/master/A.02.10.supported.languages.md)
+
 **Test method**
 
-Examine whether the response to a Discover Metadata request without a language specific filter contains metadata records independent from any language. In other words, the response (i.e. the GetRecords response XML) contains metadata records of several natural languages, as provided by the INSPIRE Discovery Service.
+Examine whether the response to a Discover Metadata request without a language specific filter contains metadata records independent from any language. In other words, if the system under test contains records in more than one natural language, the response shall contain records in several languages, as provided by the INSPIRE Discovery Service Metadata GetCapabilities Document.
 
 **Reference(s)**
 
