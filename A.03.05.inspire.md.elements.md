@@ -1,6 +1,6 @@
 # A.3.5 INSPIRE metadata elements
 
-**Purpose**: Verification whether the Discover Metadata response contains at least the INSPIRE metadata elements of each resource matching the query.
+**Purpose**: Verification whether the Discover Metadata response contains at least the INSPIRE metadata elements of each record in the response.
 
 **Prerequisites**
 
@@ -17,7 +17,8 @@ Examine whether the Discover Metadata response contains at least the INSPIRE met
 
 **Notes**
 
-This test may be performed in the INSPIRE Geoportal Metadata Validator that is available at http://inspire-geoportal.ec.europa.eu/.
+* This test may be tested by ATS-Metadata.
+* In order to perform this test using a metadata validator, it will also be necessary to request the response in http://www.isotc211.org/2005/gmd form (outputSchema). This requires the System Under Test to follow [TG DISC](README.md#ref_TG_DISC), Implementation Recommendation 2
 
 ## Contextual XPath references
 
