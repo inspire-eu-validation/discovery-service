@@ -1,14 +1,12 @@
 # A.2.1 ISO searching parameters
 
-**Purpose**: Verification whether the Get Discovery Service Metadata operation supports the advertisement of all supported ISO queryables and all INSPIRE search criteria in the section “AdditionalQueryables”.
+**Purpose**: Verification whether the Get Discovery Service Metadata operation supports the advertisement of all supported ISO queryables.
 
 **Prerequisites**
 
 **Test method**
 
-Examine whether the Get Discovery Service Metadata operation supports the advertisement of all supported ISO queryables and all INSPIRE search criteria in the section “AdditionalQueryables”. More specifically:
-1. the SupportedISOQueryables are following: Operation, Format, OrganisationName, Type, ServiceType, DistanceValue, ResourceLanguage, RevisionDate, OperatesOn, GeographicDescriptionCode, AnyText, Modified, PublicationDate, ResourceIdentifier, ParentIdentifier, Identifier, CouplingType, TopicCategory, OperatesOnIdentifier, ServiceTypeVersion, TempExtent_end, Subject, CreationDate, OperatesOnName, Title, DistanceUOM, Denominator, TempExtent_begin, AlternateTitle, Language, HasSecurityConstraints, KeywordType, Abstract;
-2. the AdditionalQueryables are following: Relation, AccessConstraints, ResponsiblePartyRole, Lineage, SpecificationDate, ConditionApplyingToAccessAndUse, SpecificationDateType, MetadataPointOfContact, Classification, Date, OtherConstraints, Degree, SpecificationTitle.
+Examine whether the Get Discovery Service Metadata operation supports the advertisement of all [SupportedISOQueryables](#SupportedISOQueryables) as defined by Table 4 of [TG DISC](README.md#ref_TG_DISC)
 
 **Reference(s)**
 
@@ -27,3 +25,4 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+<a name="SupportedISOQueryables"></a>SupportedISOQueryables | ./ows:OperationsMetadata/ows:Operation[name="GetRecords"]/ows:Constraint[name="SupportedISOQueryables"]/ows:Value
