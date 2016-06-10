@@ -4,6 +4,8 @@
 
 **Prerequisites**
 
+* [XML schema](https://github.com/inspire-eu-validation/ats-discovery-service/blob/master/A.02.11.xml.schema.md)
+
 **Test method**
 
 Examine whether:
