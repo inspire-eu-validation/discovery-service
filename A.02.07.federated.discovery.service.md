@@ -12,7 +12,7 @@ Examine whether a federated Discovery Service is published in the Get Discovery 
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 16
 
-**Test type**: Automated
+**Test type**: Manual
 
 **Notes**
 
