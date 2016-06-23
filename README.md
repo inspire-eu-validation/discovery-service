@@ -64,40 +64,40 @@ The ATS for the INSPIRE profile of CSW ISO AP contains the following tests:
 | Conformance Class | Identifier                                                        | Status   |
 | ------------------| ----------------------------------------------------------------- | -------- |
 | INSPIRE Profile of CSW ISO AP v3.1 | [A.1.1 ISO Metadata Application Profile](A.01.01.ISO_AP.md)       | ready for review  |
-|| [A.1.2 Extended behaviour](A.01.02.extended.behaviour.md)         | ready for review  |
-|| [A.1.3 ISO 19115/19119 information model](A.01.03.iso_19115_19119.model.md) | ready for review  |
-|| [A.1.4 Language parameter](A.01.04.language.parameter.md) | ready for review  |
-|| [A.1.5 ISO 639 codes](A.01.05.iso-639.codes.md) | ready for review  |
-|| [A.1.6 Unsupported languages](A.01.06.unsupported.languages.md) | ready for review  |
-|| [A.2.1 ISO searching parameters](A.02.01.iso.searching.parameters.md) | ready for review  |
-|| [A.2.2 Additional language parameter](A.02.02.additional.language.parameter.md) | ready for review  |
-|| [A.2.3 Additional search attributes](A.02.03.addiotional.search.attributes.md) | ready for review  |
-|| [A.2.4 Discovery Service metadata parameters](A.02.04.discovery.service.metadata.parameters.md) | ready for review  |
-|| [A.2.5 INSPIRE service metadata conformant](A.02.05.inspire.service.md.conformant.md) | ready for review  |
-|| [A.2.6 Federated catalogues advertisement](A.02.06.federated.catalogues.advertisement.md) | ready for review  |
-|| [A.2.7 Federated Discovery Service](A.02.07.federated.discovery.service.md) | ready for review  |
-|| [A.2.8 Natural languages](A.02.08.natural.languages.md) | ready for review  |
-|| [A.2.9 Response language](A.02.09.response.language.md) | ready for review  |
-|| [A.2.10 Supported languages](A.02.10.supported.languages.md) | ready for review  |
-|| [A.2.11 XML schema](A.02.11.xml.schema.md) | ready for review  |
-|| [A.3.1 INSPIRE search attributes](A.03.01.inspire.search.attributes.md) | ready for review  |
-|| [A.3.2 Language and query parameters](A.03.02.language.query.parameters.md) | ready for review  |
-|| [A.3.3 Language search attribute](A.03.03.language.search.attribute.md) | ready for review  |
-|| [A.3.4 Query](A.03.04.query.md) | ready for review  |
-|| [A.3.5 INSPIRE metadata elements](A.03.05.inspire.md.elements.md) | ready for review  |
-|| [A.3.6 Distributed search parameter](A.03.06.distributed.search.parameter.md) | ready for review  |
-|| [A.3.7 INSPIRE search criteria](A.03.07.inspire.search.criteria.md) | ready for review  |
-|| [A.3.8 Language search criteria](A.03.08.language.search.criteria.md) | ready for review  |
-|| [A.3.9 Additional search criteria](A.03.09.additional.search.criteria.md) | ready for review  |
-|| [A.3.10 Missing language filter](A.03.10.missing.language.filter.md) | ready for review  |
-|| [A.3.11 Language filter](A.03.11.language.filter.md) | ready for review  |
-|| [A.3.12 Invalid request](A.03.12.invalid.request.md) | ready for review  |
-|| [A.4.1 Harvesting readiness](A.04.01.harvesting.readiness.md) | ready for review  |
-|| [A.4.2 Third Party Discovery Services published to MS Discovery Service](A.04.02.third.party.discovery.services.published.md) | ready for review  |
-|| [A.5.1 Third Party Discovery Services harvestable by MS Discovery Service](A.05.01.third.party.discovery.services.harvestable.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.1.2 Extended behaviour](A.01.02.extended.behaviour.md)         | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.1.3 ISO 19115/19119 information model](A.01.03.iso_19115_19119.model.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.1.4 Language parameter](A.01.04.language.parameter.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.1.5 ISO 639 codes](A.01.05.iso-639.codes.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.1.6 Unsupported languages](A.01.06.unsupported.languages.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.1 ISO searching parameters](A.02.01.iso.searching.parameters.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.2 Additional language parameter](A.02.02.additional.language.parameter.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.3 Additional search attributes](A.02.03.addiotional.search.attributes.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.4 Discovery Service metadata parameters](A.02.04.discovery.service.metadata.parameters.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.5 INSPIRE service metadata conformant](A.02.05.inspire.service.md.conformant.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.6 Federated catalogues advertisement](A.02.06.federated.catalogues.advertisement.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.7 Federated Discovery Service](A.02.07.federated.discovery.service.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.8 Natural languages](A.02.08.natural.languages.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.9 Response language](A.02.09.response.language.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.10 Supported languages](A.02.10.supported.languages.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.2.11 XML schema](A.02.11.xml.schema.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.1 INSPIRE search attributes](A.03.01.inspire.search.attributes.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.2 Language and query parameters](A.03.02.language.query.parameters.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.3 Language search attribute](A.03.03.language.search.attribute.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.4 Query](A.03.04.query.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.5 INSPIRE metadata elements](A.03.05.inspire.md.elements.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.6 Distributed search parameter](A.03.06.distributed.search.parameter.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.7 INSPIRE search criteria](A.03.07.inspire.search.criteria.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.8 Language search criteria](A.03.08.language.search.criteria.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.9 Additional search criteria](A.03.09.additional.search.criteria.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.10 Missing language filter](A.03.10.missing.language.filter.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.11 Language filter](A.03.11.language.filter.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.3.12 Invalid request](A.03.12.invalid.request.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.4.1 Harvesting readiness](A.04.01.harvesting.readiness.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.4.2 Third Party Discovery Services published to MS Discovery Service](A.04.02.third.party.discovery.services.published.md) | ready for review  |
+| INSPIRE Profile of CSW ISO AP v3.1 | [A.5.1 Third Party Discovery Services harvestable by MS Discovery Service](A.05.01.third.party.discovery.services.harvestable.md) | ready for review  |
 | INSPIRE Quality of Services v3.1 | [A.6.1 Performance](A.06.01.QoS.performance.md) | ready for review  |
-|| [A.6.2 Capacity](A.06.02.QoS.capacity.md) | ready for review  |
-|| [A.6.3 Availability](A.06.03.QoS.availability.md) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [A.6.2 Capacity](A.06.02.QoS.capacity.md) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [A.6.3 Availability](A.06.03.QoS.availability.md) | ready for review  |
 
 ## Open issues
 
