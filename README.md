@@ -59,7 +59,7 @@ Based on requirement numbering in [TG DISC](#ref_TG_DISC).
 
 ## Tests
 
-The ATS for the INSPIRE profile of CSW ISO AP contains the following tests:
+The ATS for the INSPIRE profile of CSW ISO AP contains the following conformance classes and tests:
 
 | Conformance Class | Identifier                                                        | Status   |
 | ------------------| ----------------------------------------------------------------- | -------- |
