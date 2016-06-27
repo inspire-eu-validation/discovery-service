@@ -18,7 +18,7 @@ scenarios:
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 14
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.3.4, Implementation Requirement 14
 
 **Test type**: Automated
 

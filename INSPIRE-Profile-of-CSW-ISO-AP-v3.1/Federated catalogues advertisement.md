@@ -10,7 +10,7 @@
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 3
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.2, Implementation Requirement 3
 
 **Test type**: Manual
 

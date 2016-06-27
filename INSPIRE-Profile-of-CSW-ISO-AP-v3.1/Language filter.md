@@ -11,7 +11,7 @@ Examine whether the response to a Discover Metadata request comply with a langua
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 31
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.2, Implementation Requirement 31
 
 **Test type**: Automated
 

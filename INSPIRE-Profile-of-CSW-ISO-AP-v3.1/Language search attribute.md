@@ -10,7 +10,7 @@ Examine whether the INSPIRE Discovery service implements the “language” para
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC),Implementation Requirement 10
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.3.2.1, Implementation Requirement 10
 
 
 **Test type**: Automated

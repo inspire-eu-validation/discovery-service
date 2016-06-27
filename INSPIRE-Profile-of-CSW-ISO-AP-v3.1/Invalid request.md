@@ -18,7 +18,7 @@ The use of a valid language specific filter itself shall not raise an exception,
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 32
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.2, Implementation Requirement 32
 
 **Test type**: Automated
 

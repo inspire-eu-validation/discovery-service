@@ -11,7 +11,7 @@ When the language requested by a client is either not provided or not in the lis
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 26
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.1, Implementation Requirement 26
 
 **Test type**: Automated
 

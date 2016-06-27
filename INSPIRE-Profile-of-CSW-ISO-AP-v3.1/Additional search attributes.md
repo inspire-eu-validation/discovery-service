@@ -10,7 +10,7 @@ Examine whether the additional search attributes are advertised as a result of a
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 5
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.2, Implementation Requirement 5
 
 
 **Test type**: Automated

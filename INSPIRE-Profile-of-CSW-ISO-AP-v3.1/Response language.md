@@ -15,7 +15,7 @@ Examine whether:
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 27
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.1, Implementation Requirement 27
 
 
 **Test type**: Automated

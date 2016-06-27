@@ -10,7 +10,7 @@ Examine whether the Extended Capabilities of the Get Discovery Service Metadata 
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 29 and Annex A
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.1, Implementation Requirement 29 and Annex A
 
 **Test type**: Automated
 

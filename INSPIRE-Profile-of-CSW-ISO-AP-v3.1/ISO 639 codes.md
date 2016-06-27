@@ -12,8 +12,8 @@ Then, examine whether the values in the list of [SupportedLanguages](#SupportedL
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 6
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 25
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.3.1.1, Implementation Requirement 6
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.1, Implementation Requirement 25
 
 See note 1
 

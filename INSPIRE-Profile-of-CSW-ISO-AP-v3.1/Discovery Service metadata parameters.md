@@ -16,7 +16,7 @@ If the ```ExtendedCapabilities``` tag is present, the test case should return th
 
 **Reference(s)**
 
- * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 7
+ * [TG DISC](README.md#ref_TG_DISC), Chapter 4.3.1.2, Implementation Requirement 7
 
 
 **Test type**: Automated

@@ -26,7 +26,7 @@ To test the overall language support of a Discovery Service, thee groups of test
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 24
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5, Implementation Requirement 24
 
 
 **Test type**: Automated

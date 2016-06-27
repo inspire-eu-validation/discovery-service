@@ -10,7 +10,7 @@ Examine whether the Get Discovery Service Metadata operation supports the advert
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 22
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.4.3, Implementation Requirement 22
 
 
 **Test type**: Automated

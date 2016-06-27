@@ -10,7 +10,7 @@ Examine whether the INSPIRE Discovery Service supports the following search crit
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC),Implementation Requirement 21
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.4.2, Implementation Requirement 21
 
 
 **Test type**: Automated

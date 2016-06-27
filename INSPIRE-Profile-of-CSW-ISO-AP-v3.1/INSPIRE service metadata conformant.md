@@ -14,7 +14,7 @@ Test whether all 13 mandatory elements are non-empty strings, furthermore if the
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 8
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.3.1.3, Implementation Requirement 8
 
 
 **Test type**: Automated

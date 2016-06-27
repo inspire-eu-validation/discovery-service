@@ -12,7 +12,7 @@ Examine whether the response to a Discover Metadata request without a language s
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 30
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.2, Implementation Requirement 30
 
 **Test type**: Automated
 
