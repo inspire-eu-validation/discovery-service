@@ -10,7 +10,7 @@ Examine whether the Discover Metadata response contains at least the INSPIRE met
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC),Implementation Requirement 12
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.3.2.2, IR12
 
 
 **Test type**: Automated
