@@ -11,7 +11,7 @@ Examine whether the INSPIRE Discovery Service supports all the following search 
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 19
+* [TG DISC](README.md#ref_TG_DISC), Chapter 4.4.2, IR19
 
 
 **Test type**: Automated
