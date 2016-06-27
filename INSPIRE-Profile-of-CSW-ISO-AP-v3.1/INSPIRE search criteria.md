@@ -18,7 +18,7 @@ Examine whether the INSPIRE Discovery Service supports all the following search 
 
 **Notes**
 
-There are duplicities between Table 4 and Table 5 of TG DISC, section 4.4.2, page 33.
+There are duplicities between Table 4 and Table 5 of TG DISC, page 33.
 
 ## Contextual XPath references
 
