@@ -1,4 +1,4 @@
-# A.1.5 ISO 639 codes
+# ISO 639 codes
 
 **Purpose**: Verification whether the INSPIRE Discovery Service whether the Discover Metadata request parameter “language” accepts values that are based on ISO 639-2/B alpha 3 codes.
 

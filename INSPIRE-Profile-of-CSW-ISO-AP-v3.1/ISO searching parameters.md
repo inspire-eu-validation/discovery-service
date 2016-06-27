@@ -1,4 +1,4 @@
-# A.2.1 ISO searching parameters
+# ISO searching parameters
 
 **Purpose**: Verification whether the Get Discovery Service Metadata operation supports the advertisement of all supported ISO queryables.
 
@@ -11,7 +11,7 @@ Examine whether the Get Discovery Service Metadata operation supports the advert
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 22
-* [IR NS](README.md#ref_IR_NS), Annex II, Part A
+
 
 **Test type**: Automated
 

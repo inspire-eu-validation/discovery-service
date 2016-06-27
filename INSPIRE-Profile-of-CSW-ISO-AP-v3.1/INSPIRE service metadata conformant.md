@@ -1,4 +1,4 @@
-# A.2.5 INSPIRE service metadata conformant
+# INSPIRE service metadata conformant
 
 **Purpose**: Verification whether the Get Discovery Service Metadata response provides a document that is in conformance with the requirements of INSPIRE service metadata.
 
@@ -15,8 +15,7 @@ Test whether all 13 mandatory elements are non-empty strings, furthermore if the
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 8
-* [IR NS](README.md#ref_IR_NS), Article 2
-* [IR MD](README.md#ref_IR_MD)
+
 
 **Test type**: Automated
 

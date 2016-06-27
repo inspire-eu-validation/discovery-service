@@ -1,4 +1,4 @@
-# A.3.10 Missing language filter
+# Missing language filter
 
 **Purpose**: Verification whether the response to a Discover Metadata request without a language specific filter contains metadata records independent from any language.
 

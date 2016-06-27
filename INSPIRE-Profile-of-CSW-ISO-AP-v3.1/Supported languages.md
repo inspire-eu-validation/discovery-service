@@ -1,4 +1,4 @@
-# A.2.10 Supported languages
+# Supported languages
 
 **Purpose**: Verification whether the Extended Capabilities of the INSPIRE Get Discovery Service Metadata response (i.e. the GetCapabilities document) contain the list of supported languages.
 
@@ -14,7 +14,7 @@ Examine whether the Extended Capabilities of the INSPIRE Get Discovery Service M
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 23
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 28
-* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 2.2.3
+
 
 **Test type**: Automated
 

@@ -1,4 +1,4 @@
-# A.3.7 INSPIRE search criteria
+# INSPIRE search criteria
 
 **Purpose**: Verification whether the INSPIRE Discovery Service supports the search criteria (queryables) as indicated in Table 4 of TG DISC, section 4.4.2, page 33.
 
@@ -12,7 +12,7 @@ Examine whether the INSPIRE Discovery Service supports all the following search 
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 19
-* [IR NS](README.md#ref_IR_NS), Annex II, Part A
+
 
 **Test type**: Automated
 

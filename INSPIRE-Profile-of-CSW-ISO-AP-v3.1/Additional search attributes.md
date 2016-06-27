@@ -1,4 +1,4 @@
-# A.2.3 Additional search attributes
+# Additional search attributes
 
 **Purpose**: Verification whether the additional search attributes are advertised as the results of a Service metadata response to a discover metadata request.
 
@@ -11,7 +11,7 @@ Examine whether the additional search attributes are advertised as a result of a
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 5
-* [IR NS](README.md#ref_IR_NS), Annex A
+
 
 **Test type**: Automated
 

@@ -1,4 +1,4 @@
-# A.1.4 Language parameter
+# Language parameter
 
 **Purpose**: Verification whether the INSPIRE Discovery Service properly supports natural languages.
 
@@ -27,7 +27,7 @@ To test the overall language support of a Discovery Service, thee groups of test
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 24
-* [IR NS](README.md#ref_IR_NS), Annex II, Part B, sections 2.1.1, 2.2, 2.2.3, 3.1, 3.1.1
+
 
 **Test type**: Automated
 

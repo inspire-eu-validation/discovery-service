@@ -1,4 +1,4 @@
-# A.3.12 Invalid request
+# Invalid request
 
 **Purpose**: Verification whether the response in a form of an exception to an invalid Discover Metadata request containing a language specific parameter is provided in the default or in a requested and supported language.
 

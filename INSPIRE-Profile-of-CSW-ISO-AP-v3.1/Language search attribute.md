@@ -1,4 +1,4 @@
-# A.3.3 Language search attribute
+# Language search attribute
 
 **Purpose**: Verification whether the language parameter is implemented by using the “language” search criteria (queryable) in a filter statement.
 
@@ -11,7 +11,7 @@ Examine whether the INSPIRE Discovery service implements the “language” para
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC),Implementation Requirement 10
-* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 3.1
+
 
 **Test type**: Automated
 

@@ -1,4 +1,4 @@
-# A.3.11 Language filter
+# Language filter
 
 **Purpose**: Verification whether the response to a Discover Metadata request comply with a language defined in the request.
 

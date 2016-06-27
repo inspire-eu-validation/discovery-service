@@ -1,4 +1,4 @@
-# A.6.1 Performance
+# QoS Performance
 
 **Purpose**: Verification whether the response time for sending the initial response to a Discovery service request is maximum 3 seconds in normal situation.
 
@@ -10,7 +10,7 @@ Examine whether the response time for sending the initial response to a Discover
 
 **Reference(s)**
 
-* [IR NS](README.md#ref_IR_NS), section 5; Annex I
+* [TG DISC](README.md#ref_TG_DISC), section 5;
 
 **Test type**: Automated
 

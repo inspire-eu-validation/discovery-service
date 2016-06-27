@@ -1,4 +1,4 @@
-# A.2.11 XML schema
+# XML schema
 
 **Purpose**:Verification whether the Extended Capabilities use the XML Schema as defined in Annex A.
 

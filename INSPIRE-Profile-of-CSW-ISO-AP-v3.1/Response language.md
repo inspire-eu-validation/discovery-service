@@ -1,4 +1,4 @@
-# A.2.9 Response language
+# Response language
 
 **Purpose**: Verification whether the Get Discovery Service Metadata response (i.e. the GetCapabilities document) contains an appropriate response language.
 
@@ -16,7 +16,7 @@ Examine whether:
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 27
-* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 2.2.3
+
 
 **Test type**: Automated
 

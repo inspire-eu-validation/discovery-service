@@ -1,4 +1,4 @@
-# A.6.2 Capacity
+# QoS Capacity
 
 **Purpose**: Verification whether the minimum number of served simultaneous requests to a Discovery Service according to the performance quality of service is 30 per second.
 
@@ -10,7 +10,7 @@ Examine whether the minimum number of served simultaneous requests to a Discover
 
 **Reference(s)**
 
-* [IR NS](README.md#ref_IR_NS), section 5; Annex I of Commission Regulation No 976/2009
+* [TG DISC](README.md#ref_TG_DISC), section 5;
 
 **Test type**: Automated
 

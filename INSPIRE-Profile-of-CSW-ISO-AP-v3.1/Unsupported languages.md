@@ -1,4 +1,4 @@
-# A.1.6 Unsupported languages
+# Unsupported languages
 
 **Purpose**:Verification whether the response of the INSPIRE Discovery Service provides its response in the default language in the cases where a client requested an unsupported language, or the language parameter is absent in the request.
 

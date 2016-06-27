@@ -1,4 +1,4 @@
-# A.1.1 ISO Metadata Application Profile
+# ISO Metadata Application Profile
 
 **Purpose**: Verification whether the INSPIRE Discovery Service implements the mandatory behaviour of an ISO Metadata Application Profile of the OGC Catalogue Service Specification in version 2.0.2.
 

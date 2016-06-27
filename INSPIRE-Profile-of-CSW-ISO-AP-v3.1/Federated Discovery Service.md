@@ -1,4 +1,4 @@
-# A.2.7 Federated Discovery Service
+# Federated Discovery Service
 
 **Purpose**: Verification whether a federated Discovery Service is published in the Get Discovery Service Metadata response of the tested INSPIRE Discovery Service as the URL.
 

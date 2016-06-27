@@ -1,4 +1,4 @@
-# A.6.3 Availability
+# QoS Availability
 
 **Purpose**: Verification whether the probability of a Discovery Service to be available is 99% of the time.
 
@@ -10,9 +10,9 @@ Examine whether the Discovery Service has a maximum unplanned downtime less than
 
 **Reference(s)**
 
-* [IR NS](README.md#ref_IR_NS), section 5; Annex I of Commission Regulation No 976/2009
+* [TG DISC](README.md#ref_TG_DISC), section 5;
 
-**Test type**: Automatic
+**Test type**: Automated
 
 **Notes**
 

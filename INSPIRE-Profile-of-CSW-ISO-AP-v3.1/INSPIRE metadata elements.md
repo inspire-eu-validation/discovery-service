@@ -1,4 +1,4 @@
-# A.3.5 INSPIRE metadata elements
+# INSPIRE metadata elements
 
 **Purpose**: Verification whether the Discover Metadata response contains at least the INSPIRE metadata elements of each record in the response.
 
@@ -11,7 +11,7 @@ Examine whether the Discover Metadata response contains at least the INSPIRE met
 **Reference(s)**
 
 * [TG DISC](README.md#ref_TG_DISC),Implementation Requirement 12
-* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 3.2.1
+
 
 **Test type**: Automated
 

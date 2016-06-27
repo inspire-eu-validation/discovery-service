@@ -1,4 +1,4 @@
-# A.3.8 Language search criteria
+# Language search criteria
 
 **Purpose**: Verification whether the INSPIRE Discovery Service supports the search criteria (queryable) “language”.
 
@@ -12,8 +12,7 @@ Examine whether the INSPIRE Discovery Service supports the search criteria ([Que
 
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 9
 * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 20
-* [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 3.1
-* [ID MD](README.md#ref_IR_MD), Annex, Part B, section 10.3
+
 
 **Test type**: Automated
 

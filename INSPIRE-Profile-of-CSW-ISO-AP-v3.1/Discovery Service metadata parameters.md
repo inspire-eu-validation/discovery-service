@@ -1,4 +1,4 @@
-# A.2.4 Discovery Service metadata parameters
+# Discovery Service metadata parameters
 
 **Purpose**: Verification whether the discovery service metadata parameters are included in the GetCapabilities response.
 
@@ -17,7 +17,7 @@ If the ```ExtendedCapabilities``` tag is present, the test case should return th
 **Reference(s)**
 
  * [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 7
- * [IR NS](README.md#ref_IR_NS), Annex II, Part B, section 3.2.1
+
 
 **Test type**: Automated
 

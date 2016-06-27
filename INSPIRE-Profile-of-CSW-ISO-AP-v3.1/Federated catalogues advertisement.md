@@ -1,4 +1,4 @@
-# A.2.6 Federated catalogues advertisement
+# Federated catalogues advertisement
 
 **Purpose**: Verification whether all federated catalogues have been advertised as a result of a Service metadata response to a Discover Metadata request.
 
