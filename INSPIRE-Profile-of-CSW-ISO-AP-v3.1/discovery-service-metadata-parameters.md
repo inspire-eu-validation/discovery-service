@@ -12,7 +12,7 @@ Examine whether the Get Discovery Service Metadata response of the Discovery ser
 AND/OR
 2. the tag ```ExtendedCapabilities``` containing INSPIRE compliant metadata.
 
-If the ```ExtendedCapabilities``` tag is present, the test case should return that 'scenario 2' is being used. If only a ```MetadataURL``` URL is provided, the test case should return 'scenario 1'. In case of scenario 1, the file identified by the ```MetadataURL``` can be subjected to [ATS-Metadata](https://github.com/inspire-eu-validation/ats-metadata).
+If the ```ExtendedCapabilities``` tag is present, the test case should return that 'scenario 2' is being used. If only a ```MetadataURL``` URL is provided, the test case should return 'scenario 1'. In case of scenario 1, the file identified by the ```MetadataURL``` can be subjected to [ATS-Metadata](http://inspire.ec.europa.eu/id/ats/metadata/3.1).
 
 **Reference(s)**
 
