@@ -15,7 +15,7 @@ A paragraph of the for describing the test flow. Use bullets or any markdown for
 
 **Reference(s)**
 
-References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](readme.md)
 
 **Test type**: Automated or Manual
 

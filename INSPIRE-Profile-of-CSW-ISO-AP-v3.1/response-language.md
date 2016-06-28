@@ -4,14 +4,14 @@
 
 **Prerequisites**
 
-* [XML schema](https://github.com/inspire-eu-validation/ats-discovery-service/blob/master/A.02.11.xml.schema.md)
+* [XML schema](xml-schema.md)
 
 **Test method**
 
 Examine whether:
 
 1. The language requested by a client is contained in the list of supported languages: in such cases the requested language shall correspond to the language used in the Get Discovery Service Metadata response (i.e. the GetCapabilities document) as defined in [ResponseLanguage](#ResponseLanguage);
-2. The language requested by a client is NOT contained in the list of supported languages: in such cases the Get Discovery Service Metadata response (i.e. the GetCapabilities document) is provided in the service default language as defined in [DefaultLanguage](#DefaultLanguage). This test can be performed by the test case for [Unsupported Languages](https://github.com/inspire-eu-validation/ats-discovery-service/blob/master/A.01.06.unsupported.languages.md)
+2. The language requested by a client is NOT contained in the list of supported languages: in such cases the Get Discovery Service Metadata response (i.e. the getcapabilities document) is provided in the service default language as defined in [defaultlanguage](#defaultlanguage). this test can be performed by the test case for [unsupported languages](unsupported-languages.md)
 
 **Reference(s)**
 

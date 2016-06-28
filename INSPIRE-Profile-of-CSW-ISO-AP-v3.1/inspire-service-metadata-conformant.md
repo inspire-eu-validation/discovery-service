@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Discovery Service Metadata Parameters](https://github.com/inspire-eu-validation/ats-discovery-service/blob/master/A.02.04.discovery.service.metadata.parameters.md) returns scenario 2
+* [Discovery Service Metadata Parameters](discovery-service-metadata-parameters.md) returns scenario 2
 
 **Test method**
 

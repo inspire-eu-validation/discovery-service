@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Supported languages](https://github.com/inspire-eu-validation/ats-discovery-service/blob/master/A.02.10.supported.languages.md)
+* [Supported languages](supported-languages.md)
 
 **Test method**
 

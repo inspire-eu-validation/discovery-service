@@ -33,13 +33,13 @@ The CC for the INSPIRE Quality of Services v3.1 contains the following test case
 
 | Conformance Class | Identifier                                                        | Status   |
 | ------------------| ----------------------------------------------------------------- | -------- |
-| INSPIRE Quality of Services v3.1 | [QoS Performance](QoS.performance.md) | ready for review  |
-| INSPIRE Quality of Services v3.1 | [QoS Capacity](QoS capacity.md) | ready for review  |
-| INSPIRE Quality of Services v3.1 | [QoS Availability](QoS.availability.md) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [QoS Performance](qos-performance.md) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [QoS Capacity](qos-capacity.md) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [QoS Availability](qos-availability.md) | ready for review  |
 
 ## Open issues
 
-* Tests [QoS Performance](QoS Performance.md), [QoS Capacity](A.06.02.QoS.capacity.md) and [QoS Availability](QoS Availability.md) do not have corresponding explicit Implementation Requirements in the [TG DISC](#ref_TG_DISC).
+* Tests [QoS Performance](qos-performance.md), [qos capacity](a-06-02-qos-capacity.md) and [qos availability](qos-availability.md) do not have corresponding explicit Implementation Requirements in the [TG DISC](#ref_TG_DISC).
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
