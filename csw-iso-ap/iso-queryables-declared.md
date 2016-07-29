@@ -1,4 +1,4 @@
-# ISO searching parameters
+# ISO queryables advertised
 
 **Purpose**: Verification whether the Get Discovery Service Metadata operation supports the advertisement of all supported ISO queryables.
 
@@ -6,12 +6,11 @@
 
 **Test method**
 
-Examine whether the Get Discovery Service Metadata operation supports the advertisement of all [SupportedISOQueryables](#SupportedISOQueryables) as defined by Table 4 of [TG DISC](README.md#ref_TG_DISC)
+Examine whether the Get Discovery Service Metadata operation supports the advertisement of all [SupportedISOQueryables](#SupportedISOQueryables) as defined by Table 4 of [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC)
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Chapter 4.4.3, Implementation Requirement 22
-
+* [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Chapter 4.4.3, Implementation Requirement 22
 
 **Test type**: Automated
 
@@ -21,8 +20,8 @@ The test ensures that the searching parameters defined in the A.3.1 INSPIRE sear
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-<a name="SupportedISOQueryables"></a>SupportedISOQueryables | ./ows:OperationsMetadata/ows:Operation[name="GetRecords"]/ows:Constraint[name="SupportedISOQueryables"]/ows:Value
+<a name="SupportedISOQueryables"></a>SupportedISOQueryables | /csw:Capabilities/ows:OperationsMetadata/ows:Operation[@name="GetRecords"]/ows:Constraint[@name="SupportedISOQueryables"]/ows:Value

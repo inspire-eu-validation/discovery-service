@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Supported languages](supported-languages.md)
+* [Supported languages](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/supported-languages.md)
 
 **Test method**
 
@@ -18,7 +18,7 @@ The use of a valid language specific filter itself shall not raise an exception,
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Chapter 4.5.2, Implementation Requirement 32
+* [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Chapter 4.5.2, Implementation Requirement 32
 
 **Test type**: Automated
 
@@ -26,7 +26,7 @@ The use of a valid language specific filter itself shall not raise an exception,
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

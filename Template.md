@@ -26,7 +26,7 @@ Any additional notes. We can also use this for open questions during drafting.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

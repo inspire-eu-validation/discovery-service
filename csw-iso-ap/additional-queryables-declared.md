@@ -10,20 +10,18 @@ Examine whether the additional search attributes are advertised as a result of a
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Chapter 4.2, Implementation Requirement 5
-
+* [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Chapter 4.2, Implementation Requirements 5, 22
 
 **Test type**: Automated
 
 **Notes**
 
-The XML excerpt of a capabilities document may be found in section 4.4.3. See Implementation Recommendation 1 about internationalisation of the service exceptions.
-
+The XML excerpt of a capabilities document may be found in section 4.4.3.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-<a name="AdditionalQueryables"></a>AdditionalQueryables | /ows:Operation[@name="GetRecords"]/ows:Constraint[@name="AdditionalQueryables"]
+<a name="AdditionalQueryables"></a>AdditionalQueryables | /csw:Capabilities/ows:OperationsMetadata/ows:Operation[@name="GetRecords"]/ows:Constraint[@name="AdditionalQueryables"]

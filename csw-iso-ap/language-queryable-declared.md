@@ -1,4 +1,4 @@
-# Language search criteria
+# Language queryable declared
 
 **Purpose**: Verification whether the INSPIRE Discovery Service supports the search criteria (queryable) “language”.
 
@@ -10,9 +10,7 @@ Examine whether the INSPIRE Discovery Service supports the search criteria ([Que
 
 **Reference(s)**
 
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 9
-* [TG DISC](README.md#ref_TG_DISC), Implementation Requirement 20
-
+* [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 20
 
 **Test type**: Automated
 
@@ -20,8 +18,8 @@ Examine whether the INSPIRE Discovery Service supports the search criteria ([Que
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-<a name="Queryable"></a>Queryable | ./ows:OperationsMetadata/ows:Operation[name="GetRecords"]/ows:Constraint["name="SupportedISOQueryables"]/ows:Value
+<a name="Queryable"></a>Queryable | /csw:Capabilities/ows:OperationsMetadata/ows:Operation[@name="GetRecords"]/ows:Constraint[@name="SupportedISOQueryables"]/ows:Value

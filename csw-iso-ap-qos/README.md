@@ -1,9 +1,24 @@
-INSPIRE Quality of Services v3.1
-================================
+# Conformance class: CSW ISO AP Quality-of-service (DRAFT)
 
-Conformance Class for INSPIRE Quality of Services v3.1
+This conformance class is part of the [Abstract Test Suite for the INSPIRE Discovery Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1).
 
-*Note*: This CC is in ready for review stage, none of the tests have an official INSPIRE MIG approval.
+## Standardization target type
+
+OGC web service (CSW ISO AP 1.0.0)
+
+## Dependencies
+
+### Direct dependencies
+
+A direct dependency is another conformance class whose requirements must be met by the discovery service, too.
+
+| Specification | Conformance class | Parameters | 
+| ------------- | ----------------- | ---------- |
+| [CSW ISO AP 1.0.0](#ref_CSW_ISO_AP) | Read-only CSW, CSW Server (A.1.2) | n/a |
+
+### Indirect dependencies
+
+none
 
 ## External document references
 
@@ -25,21 +40,23 @@ Based on requirement numbering in [TG DISC](#ref_TG_DISC).
 | Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
 | ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
 
-There are no requirements for QoS in the current version of the TG.
+There are no requirements with identifiers for QoS in the current version of the TG.
 
 ## Tests
 
-The CC for the INSPIRE Quality of Services v3.1 contains the following test cases:
+The Conformance Class contains the following test cases:
 
 | Conformance Class | Identifier                                                        | Status   |
 | ------------------| ----------------------------------------------------------------- | -------- |
-| INSPIRE Quality of Services v3.1 | [QoS Performance](qos-performance.md) | ready for review  |
-| INSPIRE Quality of Services v3.1 | [QoS Capacity](qos-capacity.md) | ready for review  |
-| INSPIRE Quality of Services v3.1 | [QoS Availability](qos-availability.md) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [QoS Performance](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap-qos/performance) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [QoS Capacity](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap-qos/capacity) | ready for review  |
+| INSPIRE Quality of Services v3.1 | [QoS Availability](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap-qos/availability) | ready for review  |
 
 ## Open issues
 
-* Tests [QoS Performance](qos-performance.md), [qos capacity](a-06-02-qos-capacity.md) and [qos availability](qos-availability.md) do not have corresponding explicit Implementation Requirements in the [TG DISC](#ref_TG_DISC).
+* Tests [QoS Performance](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap-qos/performance.md), [qos capacity](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap-qos/capacity.md) and [qos availability](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap-qos/availability.md) do not have corresponding explicit Implementation Requirements in the [TG DISC](#ref_TG_DISC).
+
+* Tests are declared to be of type "automated", but this is not correct, as the test methods include statements like: "Periods of planned downtime e.g. because of system maintenance, are not included in the measure. Downtime is considered planned when notified to the community well in advance (minimum 1 week), e.g. via notifications to registered users or on portals."
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
@@ -53,4 +70,4 @@ srv | http://www.isotc211.org/2005/srv
 xlink          | http://www.w3.org/1999/xlink
 inspire_ds | http://inspire.ec.europa.eu/schemas/inspire_ds/1.0
 inspire_common | http://inspire.ec.europa.eu/schemas/common/1.0
-ows_common | http://www.opengis.net/ows
+ows | http://www.opengis.net/ows
