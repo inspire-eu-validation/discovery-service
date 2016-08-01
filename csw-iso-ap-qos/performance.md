@@ -1,4 +1,4 @@
-# A.6.1 Performance
+# QoS Performance
 
 **Purpose**: Verification whether the response time for sending the initial response to a Discovery service request is maximum 3 seconds in normal situation.
 
@@ -10,7 +10,7 @@ Examine whether the response time for sending the initial response to a Discover
 
 **Reference(s)**
 
-* [IR NS](README.md#ref_IR_NS), section 5; Annex I
+* [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), section 5;
 
 **Test type**: Automated
 
@@ -21,7 +21,7 @@ Technical Guidance recommends that performance shall be measured using the Disco
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

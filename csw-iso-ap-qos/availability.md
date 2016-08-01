@@ -1,4 +1,4 @@
-# A.6.3 Availability
+# QoS Availability
 
 **Purpose**: Verification whether the probability of a Discovery Service to be available is 99% of the time.
 
@@ -10,9 +10,9 @@ Examine whether the Discovery Service has a maximum unplanned downtime less than
 
 **Reference(s)**
 
-* [IR NS](README.md#ref_IR_NS), section 5; Annex I of Commission Regulation No 976/2009
+* [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), section 5;
 
-**Test type**: Automatic
+**Test type**: Automated
 
 **Notes**
 
@@ -22,7 +22,7 @@ Note 2: Maybe this kind of availability monitoring should not be done using the 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](README.md#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
