@@ -1,7 +1,5 @@
 # Abstract Test Suite: INSPIRE Discovery Services Technical Guidance (DRAFT)
 
-*NOTE: Rename repository from "ats-discovery-service" to "discovery-service".*
-
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
