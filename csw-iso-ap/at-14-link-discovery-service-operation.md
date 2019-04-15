@@ -1,6 +1,6 @@
 # Link Discovery Service Operation
 
-**Purpose**: 
+**Purpose**: Test that the service implements the Link Discovery Service operation.
 
 **Prerequisites**
 
@@ -14,6 +14,7 @@
 
 **Notes**
 
+This requirement is satisfied when [requirement 15](./at-15-link-publish-metadata-operation.md), [requirement 16](./at-16-link-federated-capabilities-document.md) and [requirement 17](./at-17-link-federated-search-attribute.md) do.
 
 **Contextual XPath references**
 
