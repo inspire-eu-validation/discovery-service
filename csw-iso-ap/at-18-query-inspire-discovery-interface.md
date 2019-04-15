@@ -1,6 +1,6 @@
 # Query Inspire Discovery Interface
 
-**Purpose**: 
+**Purpose**: Test that the INSPIRE metadata might be requested through the INSPIRE Discovery Service interface within a query.
 
 **Prerequisites**
 
@@ -14,6 +14,7 @@
 
 **Notes**
 
+This requirement is satisfied when [requirement 19](./at-19-query-search-criteria.md), [requirement 20](./at-20-query-language-parameter.md) and [requirement 21](./at-21-query-additional-parameters.md) do.
 
 **Contextual XPath references**
 
