@@ -1,11 +1,10 @@
 # Publish Discovery Service
 
-**Purpose**: 
+**Purpose**: Test the harvested resources type and format.
 
 **Prerequisites**
 
 **Test method**
-
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 13
@@ -14,6 +13,7 @@
 
 **Notes**
 
+This requirement is not testable since a validation tool shall not create, modify or delete any catalog record.
 
 **Contextual XPath references**
 
