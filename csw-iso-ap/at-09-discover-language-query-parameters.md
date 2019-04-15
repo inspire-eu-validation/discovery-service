@@ -1,6 +1,6 @@
 # Discovery Language Query Parameters
 
-**Purpose**: 
+**Purpose**: Test that the Language and Query parameters are supported.
 
 **Prerequisites**
 
@@ -14,6 +14,7 @@
 
 **Notes**
 
+This requirement is satisfied when [requirement 10](./at-10-discover-language-parameter.md) and [requirement 11](./at-11-discover-query-parameter.md) do.
 
 **Contextual XPath references**
 
