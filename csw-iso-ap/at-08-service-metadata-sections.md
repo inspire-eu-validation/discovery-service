@@ -6,17 +6,14 @@
 
 **Test method**
 
-* Check that 
-
-* If any of the checks or validations fails, the test fails.
-
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 8
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
 
+This requirement is satisfied when [requirement 7](./at-07-extended-capabilities.md) does.
 
 **Contextual XPath references**
 
