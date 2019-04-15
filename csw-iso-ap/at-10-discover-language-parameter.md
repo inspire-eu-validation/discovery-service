@@ -1,6 +1,6 @@
 # Discover Language Parameter
 
-**Purpose**: 
+**Purpose**: Test that Language parameter is supported in the Discovery Metadata Operation. 
 
 **Prerequisites**
 
@@ -14,6 +14,7 @@
 
 **Notes**
 
+This requirement is satisfied when [requirement 20](./at-20-query-language-parameter.md) does.
 
 **Contextual XPath references**
 
