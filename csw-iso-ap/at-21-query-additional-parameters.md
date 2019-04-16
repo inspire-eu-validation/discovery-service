@@ -6,22 +6,20 @@
 
 **Test method**
 
-* Send a GetCapabilities request.
-
-* Check that the following values in [AdditionalQueryables](#additionalQueryables) exists:
+* Check manually if the service response is correct while using the following queryables in GetRecords requests:
 
     * Degree, SpecificationTitle, SpecificationDate, SpecificationDateType, AccessConstraints, OtherConstraints, Classification, ConditionApplyingToAccessAndUse, Lineage, ResponsiblePartyRole
-
-* If any of the checks or validations fails, the test fails.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 21
 
-**Test type**: Automated
+**Test type**: Manual
 
 **Notes**
 
 The queryables that shall be supported are shown in [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC) table 5, 6 and 7.
+
+Limitations: It is not possible to test this requirement automatically. Although it is possible to send GetRecords requests to the service using the queryables described above, it is not possible to know which values shall be used in the query nor to know if the response is correct.
 
 **Contextual XPath references**
 
@@ -29,4 +27,3 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-| AdditionalQueryables <a name="additionalQueryables"></a>   | /csw:Capabilities/ows:OperationsMetadata/ows:Operation[@name="GetRecords"]/ows:Constraint[@name="AdditionalQueryables"]
