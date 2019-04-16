@@ -1,11 +1,14 @@
 # Extended Capabilities Schema Valid
 
-**Purpose**: 
+**Purpose**: Test that the capabilities document is schema valid.
 
 **Prerequisites**
 
 **Test method**
 
+* Send a GetCapabilities request.
+
+* Check that the xml response is schema valid.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 29
