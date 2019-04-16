@@ -13,7 +13,7 @@
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 31
 
-**Test type**: Automated / Manual
+**Test type**: Manual
 
 **Notes**
 
