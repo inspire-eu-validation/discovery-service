@@ -19,7 +19,7 @@
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 20
 
-**Test type**: Automated / Manual
+**Test type**: Automated
 
 **Notes**
 
