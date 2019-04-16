@@ -1,11 +1,14 @@
 # Link Federated Capabilities Document
 
-**Purpose**: 
+**Purpose**: Test that federated Discovery Service are plublished in capabilities document.
 
 **Prerequisites**
 
 **Test method**
 
+* If the discovery service approach is implemented,
+
+    * Check manually that a federated Discovery Service is published in the Member State’s Discovery Service’s capabilities document as the URL of its HTTP/KVP/GET GetCapabilities request.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 16
