@@ -1,10 +1,14 @@
 # Link Publish Metadata Operation
 
-**Purpose**: 
+**Purpose**: Test that discovery client approach is implemented properly.
 
 **Prerequisites**
 
 **Test method**
+
+* If the discovery client approach is implemented,
+
+    * Check manually that Third Party Discovery Services are published in the Member State’s Discovery Service using the Publish Metadata operation.
 
 
 **Reference(s)**:
