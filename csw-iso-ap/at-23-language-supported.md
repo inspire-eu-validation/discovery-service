@@ -1,6 +1,6 @@
 # Language Supported
 
-**Purpose**: 
+**Purpose**: Test that the service provides a list of supported languages.
 
 **Prerequisites**
 
@@ -14,6 +14,7 @@
 
 **Notes**
 
+This requirement is satisfied when [requirement 28](./at-28-language-supported-default-cardinality.md) does.
 
 **Contextual XPath references**
 
