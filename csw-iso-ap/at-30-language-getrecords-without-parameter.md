@@ -1,16 +1,19 @@
 # Language GetRecords without Parameter
 
-**Purpose**: 
+**Purpose**: Test the service behaviour without a language specific filter.
 
 **Prerequisites**
 
 **Test method**
 
+* Send a GetRecords request.
+
+* Check that the service responds all the records that satisfy the filter.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 30
 
-**Test type**: Automated / Manual
+**Test type**: Automated
 
 **Notes**
 
