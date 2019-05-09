@@ -10,10 +10,6 @@
 
     * Check that [Default Language](#defaultLanguage), [Supported Language](#supportedLanguage) and [Response Language](#responseLanguage) are ISO 639-2/B alpha 3 valid.
 
-* Send a GetCapabilities request with parameter LANGUAGE with value equal to [Default Language](#defaultLanguage).
-
-    * Check that [Title](#title) and [Abstract](#abstract) are the same as in the first request.
-
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 25
 
