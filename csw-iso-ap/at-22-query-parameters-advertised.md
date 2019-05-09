@@ -10,11 +10,11 @@
 
 * Check that the following [SupportedISOQueryablesValue](#supportedISOQueryablesValue) exists:
 
-    * Keyword, Topic category, Spatial data service type, Lineage, Spatial resolution, Specification (composed of SpecificationTitle, SpecificationDate, SpecificationDateType), Degree, Geographic bounding box, Conditions applying to access and use, Limitations on public access (composed of AccessConstraints, OtherConstraints, Classification), Responsible party, Responsible party role, Resource Title, Resource Abstract, Resource Type, Unique resource identifier, Temporal Reference
+    * 'Subject', 'TopicCategory', 'ServiceType', 'SpatialResolution', 'BoundingBox', 'OrganisationName', 'Title', 'Abstract', 'Type', 'ResourceIdentifier', 'TemporalExtent', 'PublicationDate', 'RevisionDate' and 'CreationDate'.
 
 * Check that the following [AdditionalQueryablesValue](#additionalQueryablesValue) exists:
 
-    * Degree, SpecificationTitle, SpecificationDate, SpecificationDateType, AccessConstraints, OtherConstraints, Classification, ConditionApplyingToAccessAndUse, Lineage, ResponsiblePartyRole
+    * 'Degree', 'Specification', 'LimitationsOnPublicAccess', 'ConditionApplyingToAccessAndUse', 'Lineage', 'ResponsiblePartyRole',	'SpecificationTitle', 'SpecificationDate', 'SpecificationDateType', 'AccessConstraints', 'OtherConstraints' and 'Classification'.
 
 * If any of the checks or validations fails, the test fails.
 
