@@ -6,14 +6,14 @@
 
 **Test method**
 
-* Send a GetRecords request.
+* Send a GetRecords request without a language filter.
 
-* Check that the service responds all the records that satisfy the filter.
+* Check manually that the service responds all the records that satisfy the filter.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 30
 
-**Test type**: Automated
+**Test type**: Manual
 
 **Notes**
 

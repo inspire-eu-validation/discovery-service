@@ -113,7 +113,7 @@ The Conformance Class contains the following test cases:
 | [at-27-language-response-value](./at-27-language-response-value.md) | Automated | ready for review  |
 | [at-28-language-supported-default-cardinality](./at-28-language-supported-default-cardinality.md) | Automated | ready for review  |
 | [at-29-extended-capabilities-schema-valid](./at-29-extended-capabilities-schema-valid.md) | Automated | ready for review  |
-| [at-30-language-getrecords-without-parameter](./at-30-language-getrecords-without-parameter.md) | Automated | ready for review  |
+| [at-30-language-getrecords-without-parameter](./at-30-language-getrecords-without-parameter.md) | Manual | ready for review  |
 | [at-31-language-getrecords-lang-filter](./at-31-language-getrecords-lang-filter.md) | Manual | ready for review  |
 | [at-32-language-getrecords-exception](./at-32-language-getrecords-exception.md) | Manual | ready for review  |
 
