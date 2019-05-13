@@ -8,8 +8,10 @@
 
 * Send a GetRecords request without any filter.
 
-    * Check that each [Record](#Record) in the response is a metadata record conforming to the [INSPIRE profile of ISO 19115/19119](http://inspire.ec.europa.eu/id/ats/metadata/1.3/iso-19115-19119).
-    
+    * Check that the root of every [Record](#Record) is a MD_Metadata element.
+
+    * Check that the attribute codeListValue of every [MD_ScopeCode](#MD_ScopeCode) is dataset, series or service.
+
 * If any of the checks or validations fails, the test fails.
 
 **Reference(s)**:
@@ -34,3 +36,4 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Record <a name="Record"></a> | /csw:GetRecordsResponse/csw:SearchResults/*
+MD_ScopeCode <a name="MD_ScopeCode"></a> | /csw:GetRecordsResponse/csw:SearchResults/gmd:MD_Metadata/gmd:hierarchyLevel/gmd:MD_ScopeCode
