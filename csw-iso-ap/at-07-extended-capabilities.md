@@ -10,11 +10,11 @@
 
 * Check that the [ExtendedCapabilities](#extendedCapabilities) exists. If it does,
 
-  * If scenario 1 is selected,
+  * If [Metadata Url](#metadataUrl) child node exists,
 
-    * Check that [Metadata Url](#metadataUrl) node exists and it is a valid URL.
+    * Check that [Metadata Url](#metadataUrl) is a valid URL.
   
-  * Else if scenario 2 is selected,
+  * Else
 
     * Check that the [ExtendedCapabilities](#extendedCapabilities) section contains all the mandatory INSPIRE metadata for the Discovery Service according with table 2 and table 3 of [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC).
 
