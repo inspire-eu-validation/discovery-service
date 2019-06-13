@@ -10,7 +10,7 @@
 
 * Check that exactly one [Default Language](#defaultLanguage) element exists.
 
-* Check that zero or more [Supported Laguage](#supportedLanguage) elements exists.
+* Check that zero or more [Supported Language](#supportedLanguage) elements exists.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 28
