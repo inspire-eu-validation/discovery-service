@@ -1,6 +1,6 @@
 # Language Parameter ISO valid
 
-**Purpose**: Test that the service support the parameter LANGUAGE.
+**Purpose**: Test that the service supports the parameter LANGUAGE.
 
 **Prerequisites**
 
