@@ -8,7 +8,7 @@
 
 * Check manually if the service response is correct while using the following queryables in GetRecords requests:
 
-    * Degree, SpecificationTitle, SpecificationDate, SpecificationDateType, AccessConstraints, OtherConstraints, Classification, ConditionApplyingToAccessAndUse, Lineage, ResponsiblePartyRole
+    * Degree, Specification (composed of SpecificationTitle, SpecificationDate, SpecificationDateType), Limitations on public access (composed of AccessConstraints, OtherConstraints, Classification), ConditionApplyingToAccessAndUse, Lineage, ResponsiblePartyRole
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 21
