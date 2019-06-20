@@ -1,6 +1,6 @@
 # Link Federated Capabilities Document
 
-**Purpose**: Test that federated Discovery Service are plublished in capabilities document.
+**Purpose**: Test that federated Discovery Service is published in Member State's Discovery Service's capabilities document when the discovery service approach is implmented.
 
 **Prerequisites**
 
