@@ -8,7 +8,7 @@
 
 * Send a GetCapabilities request.
 
-* Check that the following 'Language' value exists in [SupportedISOQueryables](#supportedISOQueryables).
+* Check that the 'Language' value exists in [SupportedISOQueryables](#supportedISOQueryables).
 
 * Send a GetRecords request with a language restriction.
 
