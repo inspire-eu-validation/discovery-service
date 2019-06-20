@@ -6,9 +6,9 @@
 
 **Test method**
 
-* Send an invalid GetRecords request that raise an exception.
+* Send a valid GetRecords request with a language filter where the language is not supported by the service.
 
-    * Check manually that the exception is in default language.
+    * Check that the service does not raise an exception.
 
 * Send an invalid GetRecords request that raise an exception with a language filter.
 

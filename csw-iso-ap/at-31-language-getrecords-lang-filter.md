@@ -6,9 +6,13 @@
 
 **Test method**
 
+* Send a GetRecords request with language filter and additional filter producing an empty set of metadata records.
+
+    * Check that the service does not raise an exception.
+
 * Send a GetRecords request with language filter.
 
-* Check manually that the records obtained are properly filtered.
+    * Check manually that the records obtained are properly filtered.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 31
