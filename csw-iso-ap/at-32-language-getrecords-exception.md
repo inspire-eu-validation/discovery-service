@@ -10,7 +10,7 @@
 
     * Check that the service does not raise an exception.
 
-* Send an invalid GetRecords request that raise an exception with a language filter.
+* Send an invalid GetRecords request that raises an exception with a language filter.
 
     * Check manually that the exception is in the default or the requested language.
 
