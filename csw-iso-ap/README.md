@@ -10,7 +10,7 @@ OGC web service (CSW ISO AP 1.0.0)
 
 ### Direct dependencies
 
-A direct dependency is another conformance class whose requirements must be met by the discovery service, too.
+A direct dependency is another conformance class whose requirements must be met by the Discovery Service, too.
 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |

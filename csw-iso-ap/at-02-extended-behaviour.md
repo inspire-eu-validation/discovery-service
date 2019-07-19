@@ -1,6 +1,6 @@
 # Extended Behaviour
 
-**Purpose**: Test that the extended behaviour of the discovery service consists of Discovery Service Operations, Discovery Service Queryables and Discovery Service Multilingual aspects.
+**Purpose**: Test that the extended behaviour of the Discovery Service consists of Discovery Service Operations, Discovery Service Queryables and Discovery Service Multilingual aspects.
 
 **Prerequisites**
 

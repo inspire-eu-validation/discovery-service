@@ -1,12 +1,12 @@
 # Link Federated Capabilities Document
 
-**Purpose**: Test that federated Discovery Service is published in Member State's Discovery Service's capabilities document when the discovery service approach is implemented.
+**Purpose**: Test that federated Discovery Service is published in Member State's Discovery Service's capabilities document when the Discovery Service approach is implemented.
 
 **Prerequisites**
 
 **Test method**
 
-* If the discovery service approach is implemented,
+* If the Discovery Service approach is implemented,
 
     * Check manually that a federated Discovery Service is published in the Member State’s Discovery Service’s capabilities document as the URL of its HTTP/KVP/GET GetCapabilities request.
 
