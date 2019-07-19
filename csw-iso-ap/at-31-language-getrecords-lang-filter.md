@@ -6,11 +6,11 @@
 
 **Test method**
 
-* Send a GetRecords request with language filter producing an empty set of metadata records.
+* Send a GetRecords request with a language filter using an unsupported language, which produces an empty set of metadata records.
 
     * Check that the service does not raise an exception.
 
-* Send a GetRecords request with language filter.
+* Send a GetRecords request with a language filter using a supported language.
 
     * Check manually that the records obtained are properly filtered.
 
