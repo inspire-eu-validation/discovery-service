@@ -6,13 +6,7 @@
 
 **Test method**
 
-* Send a valid GetRecords request with a language filter where the language is not supported by the service.
-
-    * Check that the service does not raise an exception.
-
-* Send an invalid GetRecords request that raises an exception with a language filter.
-
-    * Check manually that the exception is in the default or the requested language.
+* Check manually that, for an invalid GetRecords request containing a language specific filter causing an exception, the exception is responded in the default or in a requested and supported language.
 
 **Reference(s)**:
 * [TG DISC](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/README#ref_TG_DISC), Implementation Requirement 32
