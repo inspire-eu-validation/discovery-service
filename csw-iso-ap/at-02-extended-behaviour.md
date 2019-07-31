@@ -14,7 +14,7 @@
 
 **Notes**
 
-This requirement is satisfied when all other requirements do.
+This requirement is satisfied when all other requirements had done.
 
 **Contextual XPath references**
 
