@@ -10,7 +10,7 @@
 
 * Check that the following [AdditionalQueryablesValue](#additionalQueryablesValue) exists:
 
-    * 'Degree', 'Specification', 'LimitationsOnPublicAccess', 'ConditionApplyingToAccessAndUse', 'Lineage', 'ResponsiblePartyRole',	'SpecificationTitle', 'SpecificationDate', 'SpecificationDateType', 'AccessConstraints', 'OtherConstraints' and 'Classification'.
+    * 'Degree', 'SpecificationTitle', 'SpecificationDate', 'SpecificationDateType', 'AccessConstraints', 'OtherConstraints', 'Classification', 'ConditionApplyingToAccessAndUse', 'Lineage', 'ResponsiblePartyRole',	'SpecificationTitle', 'SpecificationDate', 'SpecificationDateType', 'AccessConstraints', 'OtherConstraints' and 'Classification'.
 
 * If any of the checks or validations fails, the test fails.
 
