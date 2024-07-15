@@ -10,7 +10,7 @@ OGC web service (CSW ISO AP 1.0.0)
 
 ### Direct dependencies
 
-A direct dependency is another conformance class whose requirements must be met by the discovery service, too.
+A direct dependency is another conformance class whose requirements must be met by the Discovery Service, too.
 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |
@@ -44,63 +44,78 @@ This indirect dependency applies to all resources referenced from `inspire_commo
 
 Based on requirement numbering in [TG DISC](#ref_TG_DISC).
 
-| Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
-| ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
-| 1      | Scope: CSW ISO AP + INSPIRE extensions| n/a, covered by dependency and the tests for the other requirements | n/a |
-| 2      | Overview: INSPIRE extensions | n/a, covered by the tests for the specific requirements | n/a |
-| 3      | Federated catalogs advertised | [Federated catalogues](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/federated-catalogues) | n/a |
-| 4      | Additional search attributes mandatory | n/a, covered by the tests for the specific requirements | [IR NS](#ref_IR_NS), Annex II – Part A|
-| 5      | Additional search attributes advertised | [Additional queryables declared](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/additional-queryables-declared) | [IR NS](#ref_IR_NS), Annex A |
-| 6      | Get Discovery Service Metadata request: language attribute | n/a, covered by the tests for the specific requirements | [IR NS](#ref_IR_NS), Annex II, Part B, section 2.1.1 |
-| 7      | Either MetadataURL or embedded metadata | [Discovery service metadata: scenario 1](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/service-metadata-scenario-1), [Discovery service metadata: scenario 2](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/service-metadata-scenario-2) |[IR NS](#ref_IR_NS), Annex II, Part B, section 3.2.1 |
-| 8      | INSPIRE requirements to GetCapabilities response | [Discovery service metadata: scenario 2](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/service-metadata-scenario-2) | [IR NS](#ref_IR_NS), Article 2; [IR MD](#ref_IR_MD) |
-| 9      | Discover Metadata request: Language & Query | n/a, covered by the tests for the specific requirements |[IR NS](#ref_IR_NS), Annex II, Part B, section 3.1 |
-| 10     | Discover Metadata request: Language | [Language queryable](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-queryable) | [IR NS](#ref_IR_NS), Annex II, Part B, section 3.1|
-| 11     | Discover Metadata request: Query | n/a, covered by dependency to CSW ISO AP 1.0.0 | [IR NS](#ref_IR_NS), Annex II, Part B, section 3.1 |
-| 12     | INSPIRE metadata elements according to ISO 19115/19119 | [INSPIRE metadata elements using ISO 19115/19119 information model](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/inspire-metadata-elements) | [IR NS](#ref_IR_NS), Annex II, Part B, section 3.2.1|
-| 13     | Publish Metadata: resource type and format | not testable | n/a |
-| 14     | Link Discovery Service | n/a, Three implementation scenarios: Centralised (req. implicitly fulfilled), Discovery Client: see req. 15, Discovery Service: see req. 16/17 | [IR NS](#ref_IR_NS), Annex II, Part B, section 5|
-| 15     | Third Party Discovery Services published in MS Discovery Service | not testable | [IR NS](#ref_IR_NS), Annex II, Part B, section 4.2.2.1|
-| 16     | Federated catalogues referenced | [Federated catalogues](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/federated-catalogues) | n/a |
-| 17     | DistributedSearch fixed hop count = 2 | not a requirement | n/a |
-| 18     | INSPIRE MD records requested through Discovery Service | [INSPIRE metadata elements using ISO 19115/19119 information model](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/inspire-metadata-elements) | n/a |
-| 19     | Mandatory INSPIRE queryables | [INSPIRE queryables](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/inspire-queryables) | [IR NS](#ref_IR_NS), Annex II, Part A |
-| 20     | Language queryable | [Language queryable](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-queryable) |  [IR NS](#ref_IR_NS), Annex II, Part B, section 3.1; [ID MD](#ref_IR_MD), Annex, Part B, section 10.3|
-| 21     | Non ISO AP INSPIRE queryables | [INSPIRE queryables](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/inspire-queryables) | [IR NS](#ref_IR_NS), Annex II, Part A|
-| 22     | Declare INSPIRE queryables in Capabilities | [ISO queryables declared](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/iso-queryables-declared), [Additional queryables declared](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/additional-queryables-declared) | [IR NS](#ref_IR_NS), Annex II, Part A |
-| 23     | List supported natural languages | [Supported languages](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/supported-languages) | [IR NS](#ref_IR_NS), Annex II, Part B, section 2.2|
-| 24     | Client may select a natural language | n/a, covered by the more specific tests | [IR NS](#ref_IR_NS), Annex II, Part B, sections 2.1.1, 2.2, 2.2.3, 3.1, 3.1.1 |
-| 25     | Name and value range of the language parameter | [Supported languages](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/supported-languages) | n/a |
-| 26     | Default used for unsupported language requests | [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-selection-capabilities) | n/a |
-| 27     | ResponseLanguage declared | [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-selection-capabilities) | [IR NS](#ref_IR_NS), Annex II, Part B, section 2.2.3|
-| 28     | Use SupportedLanguages element for supported languages | [Supported languages](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/supported-languages) |[IR NS](#ref_IR_NS), Annex II, Part B, section 2.2.3 |
-| 29     | Extended capabilities XML Schema | [Schema validation](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/schema-validation) | n/a |
-| 30     | GetRecords with no language filter | [Missing language filter](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/missing-language-filter) | n/a |
-| 31     | GetRecords with a language filter | [Language queryable](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-queryable) | n/a |
-| 32     | Language for Exceptions | [Invalid request](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/invalid-request) | n/a |
-
-Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance. Requirements must be testable. 
+| Req#   | Description                          | Covered by test(s)                 |
+| ------ | ------------------------------------ | ---------------------------------- |
+| 1      | Scope: CSW ISO AP + INSPIRE extensions| n/a, covered by dependency and the tests for the other requirements |
+| 2      | Extended Behaviour | [at-02-extended-behaviour](./at-02-extended-behaviour.md) |
+| 3      | Federated Catalogues | [at-03-federated-catalogues](./at-03-federated-catalogues.md) |
+| 4      | Search Attributes Support | [at-04-search-attributes-support](./at-04-search-attributes-support.md) |
+| 5      | Search Attributes Advertised | [at-05-search-attributes-advertised](./at-05-search-attributes-advertised.md) |
+| 6      | Preferred Language | [at-06-preferred-language](./at-06-preferred-language.md) |
+| 7      | Extended Capabilities | [at-07-extended-capabilities](./at-07-extended-capabilities.md) |
+| 8      | Service Metadata Sections | [at-08-service-metadata-sections](./at-08-service-metadata-sections.md) |
+| 9      | Discovery Language Query Parameters | [at-09-discover-language-query-parameters](./at-09-discover-language-query-parameters.md) |
+| 10     | Discover Language Parameter | [at-10-discover-language-parameter](./at-10-discover-language-parameter.md) |
+| 11     | Discover Query Paramater  | [at-11-discover-query-parameter](./at-11-discover-query-parameter.md) |
+| 12     | Discover Resource Matching Query | [at-12-discover-resource-matching-query](./at-12-discover-resource-matching-query.md) |
+| 13     | Publish Discovery Service | [at-13-publish-discovery-service](./at-13-publish-discovery-service.md) |
+| 14     | Link Discovery Service Operation | [at-14-link-discovery-service-operation](./at-14-link-discovery-service-operation.md) |
+| 15     | Link Publish Metadata Operation | [at-15-link-publish-metadata-operation](./at-15-link-publish-metadata-operation.md) |
+| 16     | Link Federated Capabilities Document | [at-16-link-federated-capabilities-document](./at-16-link-federated-capabilities-document.md) |
+| 17     | Link Federated Search Attribute | [at-17-link-federated-search-attribute](./at-17-link-federated-search-attribute.md) |
+| 18     | Query Inspire Discovery Interface | [at-18-query-inspire-discovery-interface](./at-18-query-inspire-discovery-interface.md) |
+| 19     | Query Search Criteria | [at-19-query-search-criteria](./at-19-query-search-criteria.md) |
+| 20     | Query Language Parameter | [at-20-query-language-parameter](./at-20-query-language-parameter.md) |
+| 21     | Query Additional Parameters | [at-21-query-additional-parameters](./at-21-query-additional-parameters.md) |
+| 22     | Query Parameters Advertised | [at-22-query-parameters-advertised](./at-22-query-parameters-advertised.md) |
+| 23     | Language Supported | [at-23-language-supported](./at-23-language-supported.md) |
+| 24     | Language Natural Language Fields | [at-24-language-natural-lang-fields](./at-24-language-natural-lang-fields.md) |
+| 25     | Language Parameter ISO valid | [at-25-language-parameter-iso-valid](./at-25-language-parameter-iso-valid.md) |
+| 26     | Language Natural Fields Default | [at-26-language-natural-fields-default](./at-26-language-natural-fields-default.md) |
+| 27     | Language Response Value | [at-27-language-response-value](./at-27-language-response-value.md) |
+| 28     | Language Supported Default Cardinality | [at-28-language-supported-default-cardinality](./at-28-language-supported-default-cardinality.md) |
+| 29     | Extended Capabilities Schema Valid | [at-29-extended-capabilities-schema-valid](./at-29-extended-capabilities-schema-valid.md) |
+| 30     | Language GetRecords without Parameter | [at-30-language-getrecords-without-parameter](./at-30-language-getrecords-without-parameter.md) |
+| 31     | Language GetRecords Language Filter | [at-31-language-getrecords-lang-filter](./at-31-language-getrecords-lang-filter.md) |
+| 32     | Language GetRecords Exception | [at-32-language-getrecords-exception](./at-32-language-getrecords-exception.md) |
 
 ## Tests
 
 The Conformance Class contains the following test cases:
 
-| Identifier                                                        | Status   |
-| ----------------------------------------------------------------- | -------- |
-| [Additional queryables declared](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/additional-queryables-declared) | ready for review  |
-| [Federated catalogues](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/federated-catalogues) | ready for review  |
-| [INSPIRE metadata elements using the ISO 19115/19119 information model](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/inspire-metadata-elements) | ready for review  |
-| [INSPIRE queryables](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/inspire-queryables) | ready for review  |
-| [Invalid request](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/invalid-request) | ready for review  |
-| [ISO queryables declared](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/iso-queryables-declared) | ready for review  |
-| [Language queryable](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-queryable) | ready for review  |
-| [Language queryable declared](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-queryable-declared) | ready for review  |
-| [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/language-selection-capabilities) | ready for review  |
-| [No language filter](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/no-language-filter) | ready for review  |
-| [Schema validation](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/schema-validation) | ready for review  |
-| Discovery service metadata: scenario 1](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/service-metadata-scenario-1) | ready for review |
-| Discovery service metadata: scenario 2](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/service-metadata-scenario-2) | ready for review |
-| [Supported languages](http://inspire.ec.europa.eu/id/ats/discovery-service/3.1/csw-iso-ap/supported-languages) | ready for review  |
+| Identifier                                                        | Type  | Status   |
+| ----------------------------------------------------------------- | ----- | -------- |
+| [at-02-extended-behaviour](./at-02-extended-behaviour.md) | None | ready for review  |
+| [at-03-federated-catalogues](./at-03-federated-catalogues.md) | None | ready for review  |
+| [at-04-search-attributes-support](./at-04-search-attributes-support.md) | None | ready for review  |
+| [at-05-search-attributes-advertised](./at-05-search-attributes-advertised.md) | None | ready for review  |
+| [at-06-preferred-language](./at-06-preferred-language.md) | None | ready for review  |
+| [at-07-extended-capabilities](./at-07-extended-capabilities.md) | Automated | ready for review  |
+| [at-08-service-metadata-sections](./at-08-service-metadata-sections.md) | None | ready for review  |
+| [at-09-discover-language-query-parameters](./at-09-discover-language-query-parameters.md) | None | ready for review  |
+| [at-10-discover-language-parameter](./at-10-discover-language-parameter.md) | None | ready for review  |
+| [at-11-discover-query-parameter](./at-11-discover-query-parameter.md) | None | ready for review  |
+| [at-12-discover-resource-matching-query](./at-12-discover-resource-matching-query.md) | Automated | ready for review  |
+| [at-13-publish-discovery-service](./at-13-publish-discovery-service.md) | None | ready for review  |
+| [at-14-link-discovery-service-operation](./at-14-link-discovery-service-operation.md) | None | ready for review  |
+| [at-15-link-publish-metadata-operation](./at-15-link-publish-metadata-operation.md) | Manual | ready for review  |
+| [at-16-link-federated-capabilities-document](./at-16-link-federated-capabilities-document.md) | Manual | ready for review  |
+| [at-17-link-federated-search-attribute](./at-17-link-federated-search-attribute.md) | None | ready for review  |
+| [at-18-query-inspire-discovery-interface](./at-18-query-inspire-discovery-interface.md) | None | ready for review  |
+| [at-19-query-search-criteria](./at-19-query-search-criteria.md) | Manual | ready for review  |
+| [at-20-query-language-parameter](./at-20-query-language-parameter.md) | Automated | ready for review  |
+| [at-21-query-additional-parameters](./at-21-query-additional-parameters.md) | Manual | ready for review  |
+| [at-22-query-parameters-advertised](./at-22-query-parameters-advertised.md) | Automated | ready for review  |
+| [at-23-language-supported](./at-23-language-supported.md) | None | ready for review  |
+| [at-24-language-natural-lang-fields](./at-24-language-natural-lang-fields.md) | Manual | ready for review  |
+| [at-25-language-parameter-iso-valid](./at-25-language-parameter-iso-valid.md) | Automated | ready for review  |
+| [at-26-language-natural-fields-default](./at-26-language-natural-fields-default.md) | Automated | ready for review  |
+| [at-27-language-response-value](./at-27-language-response-value.md) | Automated | ready for review  |
+| [at-28-language-supported-default-cardinality](./at-28-language-supported-default-cardinality.md) | Automated | ready for review  |
+| [at-29-extended-capabilities-schema-valid](./at-29-extended-capabilities-schema-valid.md) | Automated | ready for review  |
+| [at-30-language-getrecords-without-parameter](./at-30-language-getrecords-without-parameter.md) | Manual | ready for review  |
+| [at-31-language-getrecords-lang-filter](./at-31-language-getrecords-lang-filter.md) | Manual | ready for review  |
+| [at-32-language-getrecords-exception](./at-32-language-getrecords-exception.md) | Manual | ready for review  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
